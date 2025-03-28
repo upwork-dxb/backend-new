@@ -1,0 +1,54 @@
+const express = require('express')
+  , walletController = require('../controllers/walletController')
+  , contentService = require('../service/contentService');
+const WalletValidator = require('../validator/walletValidator');
+//Routes for account statements 
+module.exports = () => {
+  const walletRoutes = express.Router();
+  walletRoutes.post('/walletchipIn', contentService.wallet.single('image'), walletController.walletchipIn);
+  walletRoutes.post('/walletchipOut', walletController.walletchipOut);
+  walletRoutes.post('/getwalletTransactionList', walletController.getwalletTransactionList);
+  walletRoutes.post('/getwalletAllTransaction', WalletValidator.getwalletAllTransaction, walletController.getwalletAllTransaction);
+  walletRoutes.post('/getpreviewDeposit', walletController.getpreviewDeposit);
+  walletRoutes.post('/depositAccepted', walletController.depositAccepted);
+  walletRoutes.post('/depositRejected', walletController.depositRejected);
+  walletRoutes.post('/withdrawAccepted', contentService.wallet.single('image'), walletController.withdrawAccepted);
+  walletRoutes.post('/withdrawRejected', walletController.withdrawRejected);
+  walletRoutes.post('/bankingMethod', walletController.bankingMethod);
+  walletRoutes.post('/editBankingMethod', walletController.editBankingMethod);
+  walletRoutes.post('/getBankingMethodsTypes', walletController.getBankingMethodsTypes);
+  walletRoutes.post('/getbankingMethod', walletController.getbankingMethod);
+  walletRoutes.post('/getBankDetails', walletController.getBankDetails);
+  walletRoutes.post('/createBankType', WalletValidator.createBankType, contentService.paymentQR.single('payment_qr'), walletController.createBankType);
+  walletRoutes.post('/updatePaymentMethod', walletController.updatePaymentMethod);
+  walletRoutes.post('/updatePayment', walletController.updatePayment);
+  walletRoutes.post('/updateacceptProgress', walletController.updateacceptProgress);
+  walletRoutes.post('/getprogesswithdrawList', walletController.getprogesswithdrawList);
+  walletRoutes.post('/assignoperatorMethod', walletController.assignoperatorMethod);
+  walletRoutes.post('/assigndomainMethod', walletController.assigndomainMethod);
+  walletRoutes.post('/getuserpayment', walletController.getuserpayment);
+  walletRoutes.post('/withdrawprocces', walletController.withdrawprocces);
+  walletRoutes.post('/traderwithdrawlist', walletController.traderwithdrawlist);
+  walletRoutes.post('/setcreditlimit', walletController.setcreditlimit);
+  walletRoutes.post('/getuserpayementList', walletController.getuserpayementList);
+  walletRoutes.post('/domainselfassign', walletController.domainselfassign);
+  walletRoutes.post('/getdomainassignList', walletController.getdomainassignList);
+  walletRoutes.post('/getdomainList', walletController.getdomainList);
+  walletRoutes.post('/editBankType', contentService.paymentQR.single('payment_qr'), walletController.editBankType);
+  walletRoutes.post('/getBankType', walletController.getBankType);
+  walletRoutes.post('/getParentDomainList', walletController.getParentDomainList);
+  walletRoutes.post('/withdrawAcceptedV2', contentService.wallet.single('image'), walletController.withdrawAcceptedV2);
+  walletRoutes.post('/withdrawRejectedV2', walletController.withdrawRejectedV2);
+  walletRoutes.post('/getwalletTransactionListForParent', WalletValidator.getwalletTransactionListForParent, walletController.getWalletTransactionListForParent);
+  walletRoutes.post('/deleteBankMethod', WalletValidator.deleteBankMethodOrBankDetails, walletController.deleteBankMethod);
+  walletRoutes.post('/deleteBankDetail', WalletValidator.deleteBankMethodOrBankDetails, walletController.deleteBankDetail);
+  walletRoutes.post('/traderwithdrawlistV2', WalletValidator.traderwithdrawlistV2, walletController.traderwithdrawlistV2);
+  walletRoutes.post('/getExpiryDaysAndMsg', WalletValidator.getExpiryDaysAndMsg, walletController.getExpiryDaysAndMsg);
+  walletRoutes.post('/depositAcceptedByDeler', WalletValidator.depositAcceptedByDeler, walletController.depositAcceptedByDeler);
+  walletRoutes.post('/withDrawalAcceptedByDeler', WalletValidator.withDrawalAcceptedByDeler, walletController.withDrawalAcceptedByDeler);
+  walletRoutes.post('/getAllTransactionsList', WalletValidator.getAllTransactionsList, walletController.getAllTransactionsList);
+  walletRoutes.post('/getPayementMethod', walletController.isRequestFromUpline, WalletValidator.getPayementMethod, walletController.getPayementMethod);
+  walletRoutes.post('/getParentPayementDetails', WalletValidator.getParentPayementDetails, walletController.getParentPayementDetails);
+  walletRoutes.post('/getwalletDWTransactionList', WalletValidator.getwalletDWTransactionList, walletController.getwalletDWTransactionList);
+  return walletRoutes;
+};

@@ -1,0 +1,74 @@
+###
+@host = http://localhost:3002/api/v1
+@header = Content-type: application/json
+@token = Authorization: Bearer 
+
+
+###
+POST {{host}}/fancy/createFancy
+{{header}}
+{{token}}
+
+{
+"match_id": "30802553",
+ "name": "Match 1st over run(GAW vs TKR)adv",
+"session_value_yes": "1",
+"session_value_no": "2",
+"sport_id":"4",
+"series_id": "11365612",
+"session_size_no": "678",
+"session_size_yes": "564",
+ "selection_id": "1"
+}
+
+
+###
+POST {{host}}/fancy/updateFancyById
+{{header}}
+{{token}}
+
+{
+"fancy_id": "30802553_645381",
+"active": 1,
+"max_session_bet_liability": "76509",
+"max_session_liability": "654",
+"name": "xyzabced"
+
+}
+
+
+###
+POST {{host}}/fancy/getFancy
+{{header}}
+{{token}}
+
+{
+    "user_id": "611cfe35effd67019064240a",
+    "match_id": "30802553",
+    "name": "abc",
+    "page": 1,
+    "limit": 10
+}
+
+
+###
+POST {{host}}/fancy/updateFancyStatus
+{{header}}
+{{token}}
+
+{
+     "user_id": "611cfe35effd67019064240a",
+     "fancy_id": "30802553_7654",
+     "is_active": 1
+}
+
+
+###
+POST {{host}}/fancy/getOnlineApiFancy
+{{header}}
+{{token}}
+
+{
+   "user_id": "611cfe35effd67019064240a",
+   "match_id": "30848276"
+}

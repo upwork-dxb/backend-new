@@ -1,0 +1,14 @@
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: cpu-scaledobject-beatific-admin-backend
+  namespace: default
+spec:
+  scaleTargetRef:
+    name: {{ include "beatific-admin-backend.fullname" . }}
+  minReplicaCount: 1
+  triggers:
+  - type: cpu
+    metadata:
+      type: Utilization # Allowed types are 'Utilization' or 'AverageValue'
+      value: "50"

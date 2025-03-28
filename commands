@@ -1,0 +1,9 @@
+nodemon utils/cron.js
+nodemon admin-server.js
+nodemon user-server.js
+pm2 start --env production
+pm2 start --env development
+pm2 start --env dev
+***************************DANGER*******************************
+nodemon defaultInstall/defaultInstal.js
+nodemon test/resetBalanc.js

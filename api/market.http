@@ -1,0 +1,45 @@
+###
+@host = http://localhost:3002/api/v1
+@header = Content-type: application/json
+@token = Authorization: Bearer 
+
+
+###
+POST {{host}}/market/createMarket
+{{header}}
+{{token}}
+
+{
+    "sport_id": "4",
+    "series_id": "3456",
+    "match_id": "765655",
+    "market_id": "7654",
+    "market_name": "England 1st Innings 45 Over Line",
+    "is_manual": 1
+}
+
+
+###
+POST {{host}}/market/updateMarketStatus
+{{header}}
+{{token}}
+
+{
+   
+    "market_id": "7654",
+    "user_id": "611cab9deffd670190642385",
+    "is_active": 1
+}
+
+
+###
+POST {{host}}/market/getOnlineMarket
+{{header}}
+{{token}}
+
+{
+    "userid": "611ca174effd6701906421de",
+    "match_id": "30802553",
+    "sport_id": "4"
+}
+

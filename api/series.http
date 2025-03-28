@@ -1,0 +1,35 @@
+###
+@host = http://localhost:3002/api/v1
+@header = Content-type: application/json
+@token = Authorization: Bearer 
+
+###
+POST {{host}}/series/createSeries
+{{header}}
+{{token}}
+{
+"sport_id": "4",
+"series_id": "3456",
+"name": "vivo ipl t20",
+"is_manual": 1
+}
+
+###
+POST {{host}}/series/updateSeriesStatus
+{{header}}
+{{token}}
+{
+"userid": "6112696fbbc60909998aaf2f",
+"series_id": "6544",
+"is_active": 1,
+"user_typeId": 4
+}
+
+###
+POST {{host}}/series/getOnlineSeries
+{{header}}
+{{token}}
+{
+"userid": "6112697e27d70725f76125d8",
+"sport_id": "4"
+}

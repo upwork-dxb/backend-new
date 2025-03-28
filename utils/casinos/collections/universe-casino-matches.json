@@ -1,0 +1,866 @@
+[
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0031",
+    "series_name": "LUCKY 7 - B",
+    "match_id": "99.0031",
+    "name": "LUCKY 7 - B",
+    "match_name": "LUCKY 7 - B",
+    "runners": [
+      {
+        "market_id": "-99.99.0031.winner",
+        "selectionId": "58259208606",
+        "selection_id": "58259208606",
+        "name": "LOW CARD ( A to 6 )",
+        "selection_name": "LOW CARD ( A to 6 )",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0031.winner",
+        "selectionId": "58259808605",
+        "selection_id": "58259808605",
+        "name": "HIGH CARD ( 8 to K )",
+        "selection_name": "HIGH CARD ( 8 to K )",
+        "sort_priority": 2,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0018",
+    "series_name": "DRAGON TIGER",
+    "match_id": "99.0018",
+    "name": "DRAGON TIGER",
+    "match_name": "DRAGON TIGER",
+    "runners": [
+      {
+        "market_id": "-99.99.0018.winner",
+        "selectionId": 3884437,
+        "selection_id": 3884437,
+        "name": "TIGER",
+        "selection_name": "TIGER",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0018.winner",
+        "selectionId": 3954374,
+        "selection_id": 3954374,
+        "name": "TIE",
+        "selection_name": "TIE",
+        "sort_priority": 2,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0018.winner",
+        "selectionId": 38372466,
+        "selection_id": 38372466,
+        "name": "DRAGON",
+        "selection_name": "DRAGON",
+        "sort_priority": 3,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0018.winner",
+        "selectionId": "76352071876",
+        "selection_id": "76352071876",
+        "name": "No Card",
+        "selection_name": "No Card",
+        "sort_priority": 4,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0041",
+    "series_name": "DTL TEENPATTI - A",
+    "match_id": "99.0041",
+    "name": "DTL TEENPATTI - A",
+    "match_name": "DTL TEENPATTI - A",
+    "runners": [
+      {
+        "market_id": "-99.99.0041.winner",
+        "selectionId": 3884437,
+        "selection_id": 3884437,
+        "name": "TIGER",
+        "selection_name": "TIGER",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0041.winner",
+        "selectionId": 3884439,
+        "selection_id": 3884439,
+        "name": "LION",
+        "selection_name": "LION",
+        "sort_priority": 2,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0041.winner",
+        "selectionId": 38372466,
+        "selection_id": 38372466,
+        "name": "DRAGON",
+        "selection_name": "DRAGON",
+        "sort_priority": 3,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0041.winner",
+        "selectionId": "76352071876",
+        "selection_id": "76352071876",
+        "name": "No Card",
+        "selection_name": "No Card",
+        "sort_priority": 4,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0046",
+    "series_name": "20-20 CARD RACE",
+    "match_id": "99.0046",
+    "name": "20-20 CARD RACE",
+    "match_name": "20-20 CARD RACE",
+    "runners": [
+      {
+        "market_id": "-99.99.0046.race-winner-odd/even",
+        "selectionId": 665566,
+        "selection_id": 665566,
+        "name": "EVEN",
+        "selection_name": "EVEN",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0046.race-winner-odd/even",
+        "selectionId": 995566,
+        "selection_id": 995566,
+        "name": "ODD",
+        "selection_name": "ODD",
+        "sort_priority": 2,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0013",
+    "series_name": "1DAY TEEN PATTI",
+    "match_id": "99.0013",
+    "name": "1DAY TEEN PATTI",
+    "match_name": "1DAY TEEN PATTI",
+    "runners": [
+      {
+        "market_id": "-99.99.0013.winner",
+        "selectionId": "30820190609",
+        "selection_id": "30820190609",
+        "name": "PLAYER A",
+        "selection_name": "PLAYER A",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0013.winner",
+        "selectionId": "30820190610",
+        "selection_id": "30820190610",
+        "name": "PLAYER B",
+        "selection_name": "PLAYER B",
+        "sort_priority": 2,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0010",
+    "series_name": "20-20 TEEN PATTI",
+    "match_id": "99.0010",
+    "name": "20-20 TEEN PATTI",
+    "match_name": "20-20 TEEN PATTI",
+    "runners": [
+      {
+        "market_id": "-99.99.0010.winner",
+        "selectionId": "30820190609",
+        "selection_id": "30820190609",
+        "name": "PLAYER A",
+        "selection_name": "PLAYER A",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0010.winner",
+        "selectionId": "30820190610",
+        "selection_id": "30820190610",
+        "name": "PLAYER B",
+        "selection_name": "PLAYER B",
+        "sort_priority": 2,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0022",
+    "series_name": "32 CARDS - A",
+    "match_id": "99.0022",
+    "name": "32 CARDS - A",
+    "match_name": "32 CARDS - A",
+    "runners": [
+      {
+        "market_id": "-99.99.0022.winner",
+        "selectionId": 123015008,
+        "selection_id": 123015008,
+        "name": "Player 8",
+        "selection_name": "Player 8",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0022.winner",
+        "selectionId": 123015009,
+        "selection_id": 123015009,
+        "name": "Player 9",
+        "selection_name": "Player 9",
+        "sort_priority": 2,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0022.winner",
+        "selectionId": 1230150010,
+        "selection_id": 1230150010,
+        "name": "Player 10",
+        "selection_name": "Player 10",
+        "sort_priority": 3,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0022.winner",
+        "selectionId": 1230150011,
+        "selection_id": 1230150011,
+        "name": "Player 11",
+        "selection_name": "Player 11",
+        "sort_priority": 4,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0036",
+    "series_name": "BACCARAT - C",
+    "match_id": "99.0036",
+    "name": "BACCARAT - C",
+    "match_name": "BACCARAT - C",
+    "runners": [
+      {
+        "market_id": "-99.99.0036.winner",
+        "selectionId": 38371235,
+        "selection_id": 38371235,
+        "name": "PLAYER",
+        "selection_name": "PLAYER",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0036.winner",
+        "selectionId": 38847854,
+        "selection_id": 38847854,
+        "name": "BANKER",
+        "selection_name": "BANKER",
+        "sort_priority": 2,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0034",
+    "series_name": "ANDAR BAHAR - C",
+    "match_id": "99.0034",
+    "name": "ANDAR BAHAR - C",
+    "match_name": "ANDAR BAHAR - C",
+    "runners": [
+      {
+        "market_id": "-99.99.0034.side-bet",
+        "selectionId": 1782383,
+        "selection_id": 1782383,
+        "name": "SIDE BET A",
+        "selection_name": "SIDE BET A",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0034.side-bet",
+        "selectionId": 1782384,
+        "selection_id": 1782384,
+        "name": "SIDE BET B",
+        "selection_name": "SIDE BET B",
+        "sort_priority": 2,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0025",
+    "series_name": "ANDAR BAHAR - A",
+    "match_id": "99.0025",
+    "name": "ANDAR BAHAR - A",
+    "match_name": "ANDAR BAHAR - A",
+    "runners": [
+      {
+        "market_id": "-99.99.0025.side-bet",
+        "selectionId": 1782383,
+        "selection_id": 1782383,
+        "name": "SIDE BET A",
+        "selection_name": "SIDE BET A",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0025.side-bet",
+        "selectionId": 1782384,
+        "selection_id": 1782384,
+        "name": "SIDE BET B",
+        "selection_name": "SIDE BET B",
+        "sort_priority": 2,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0032",
+    "series_name": "FAST LUCKY 7",
+    "match_id": "99.0032",
+    "name": "FAST LUCKY 7",
+    "match_name": "FAST LUCKY 7",
+    "runners": [
+      {
+        "market_id": "-99.99.0032.winner",
+        "selectionId": "58259208606",
+        "selection_id": "58259208606",
+        "name": "LOW CARD ( A to 6 )",
+        "selection_name": "LOW CARD ( A to 6 )",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0032.winner",
+        "selectionId": "58259808605",
+        "selection_id": "58259808605",
+        "name": "HIGH CARD ( 8 to K )",
+        "selection_name": "HIGH CARD ( 8 to K )",
+        "sort_priority": 2,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0030",
+    "series_name": "LUCKY 7 - A",
+    "match_id": "99.0030",
+    "name": "LUCKY 7 - A",
+    "match_name": "LUCKY 7 - A",
+    "runners": [
+      {
+        "market_id": "-99.99.0030.winner",
+        "selectionId": "58259208606",
+        "selection_id": "58259208606",
+        "name": "LOW CARD ( A to 6 )",
+        "selection_name": "LOW CARD ( A to 6 )",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0030.winner",
+        "selectionId": "58259808605",
+        "selection_id": "58259808605",
+        "name": "HIGH CARD ( 8 to K )",
+        "selection_name": "HIGH CARD ( 8 to K )",
+        "sort_priority": 2,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0020",
+    "series_name": "FAST DRAGON TIGER",
+    "match_id": "99.0020",
+    "name": "FAST DRAGON TIGER",
+    "match_name": "FAST DRAGON TIGER",
+    "runners": [
+      {
+        "market_id": "-99.99.0020.winner",
+        "selectionId": 3884437,
+        "selection_id": 3884437,
+        "name": "TIGER",
+        "selection_name": "TIGER",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0020.winner",
+        "selectionId": 3954374,
+        "selection_id": 3954374,
+        "name": "TIE",
+        "selection_name": "TIE",
+        "sort_priority": 2,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0020.winner",
+        "selectionId": 38372466,
+        "selection_id": 38372466,
+        "name": "DRAGON",
+        "selection_name": "DRAGON",
+        "sort_priority": 3,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0020.winner",
+        "selectionId": "76352071876",
+        "selection_id": "76352071876",
+        "name": "No Card",
+        "selection_name": "No Card",
+        "sort_priority": 4,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0019",
+    "series_name": "20-20 DRAGON TIGER",
+    "match_id": "99.0019",
+    "name": "20-20 DRAGON TIGER",
+    "match_name": "20-20 DRAGON TIGER",
+    "runners": [
+      {
+        "market_id": "-99.99.0019.winner",
+        "selectionId": 3884437,
+        "selection_id": 3884437,
+        "name": "TIGER",
+        "selection_name": "TIGER",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0019.winner",
+        "selectionId": 3954374,
+        "selection_id": 3954374,
+        "name": "TIE",
+        "selection_name": "TIE",
+        "sort_priority": 2,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0019.winner",
+        "selectionId": 38372466,
+        "selection_id": 38372466,
+        "name": "DRAGON",
+        "selection_name": "DRAGON",
+        "sort_priority": 3,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0019.winner",
+        "selectionId": "76352071876",
+        "selection_id": "76352071876",
+        "name": "No Card",
+        "selection_name": "No Card",
+        "sort_priority": 4,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0007",
+    "series_name": "20-20 POKER - A",
+    "match_id": "99.0007",
+    "name": "20-20 POKER - A",
+    "match_name": "20-20 POKER - A",
+    "runners": [
+      {
+        "market_id": "-99.99.0007.straight-flush",
+        "selectionId": 759873187,
+        "selection_id": 759873187,
+        "name": "PLAYER A",
+        "selection_name": "PLAYER A",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0007.straight-flush",
+        "selectionId": 759874388,
+        "selection_id": 759874388,
+        "name": "PLAYER B",
+        "selection_name": "PLAYER B",
+        "sort_priority": 2,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0014",
+    "series_name": "MUFLIS TEEN PATTI",
+    "match_id": "99.0014",
+    "name": "MUFLIS TEEN PATTI",
+    "match_name": "MUFLIS TEEN PATTI",
+    "runners": [
+      {
+        "market_id": "-99.99.0014.winner",
+        "selectionId": "30820190609",
+        "selection_id": "30820190609",
+        "name": "PLAYER A",
+        "selection_name": "PLAYER A",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0014.winner",
+        "selectionId": "30820190610",
+        "selection_id": "30820190610",
+        "name": "PLAYER B",
+        "selection_name": "PLAYER B",
+        "sort_priority": 2,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0001",
+    "series_name": "BACCARAT",
+    "match_id": "99.0001",
+    "name": "BACCARAT",
+    "match_name": "BACCARAT",
+    "runners": [
+      {
+        "market_id": "-99.99.0001.pair",
+        "selectionId": 539764342,
+        "selection_id": 539764342,
+        "name": "PLAYER PAIR",
+        "selection_name": "PLAYER PAIR",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0001.pair",
+        "selectionId": 963223764,
+        "selection_id": 963223764,
+        "name": "BANKER PAIR",
+        "selection_name": "BANKER PAIR",
+        "sort_priority": 2,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0002",
+    "series_name": "BACCARAT - A",
+    "match_id": "99.0002",
+    "name": "BACCARAT - A",
+    "match_name": "BACCARAT - A",
+    "runners": [
+      {
+        "market_id": "-99.99.0002.pair",
+        "selectionId": 539764342,
+        "selection_id": 539764342,
+        "name": "PLAYER PAIR",
+        "selection_name": "PLAYER PAIR",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0002.pair",
+        "selectionId": 963223764,
+        "selection_id": 963223764,
+        "name": "BANKER PAIR",
+        "selection_name": "BANKER PAIR",
+        "sort_priority": 2,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0005",
+    "series_name": "AMAR AKBAR ANTHONY",
+    "match_id": "99.0005",
+    "name": "AMAR AKBAR ANTHONY",
+    "match_name": "AMAR AKBAR ANTHONY",
+    "runners": [
+      {
+        "market_id": "-99.99.0005.winner",
+        "selectionId": "58259208606",
+        "selection_id": "58259208606",
+        "name": "AMAR ( A,2,3,4,5,6 )",
+        "selection_name": "AMAR ( A,2,3,4,5,6 )",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0005.winner",
+        "selectionId": "58259808605",
+        "selection_id": "58259808605",
+        "name": "AKBAR ( 7,8,9,10 )",
+        "selection_name": "AKBAR ( 7,8,9,10 )",
+        "sort_priority": 2,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0005.winner",
+        "selectionId": "58259808607",
+        "selection_id": "58259808607",
+        "name": "ANTHONY ( J,Q,K )",
+        "selection_name": "ANTHONY ( J,Q,K )",
+        "sort_priority": 3,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0040",
+    "series_name": "3 CARD JUDGEMENT - A",
+    "match_id": "99.0040",
+    "name": "3 CARD JUDGEMENT - A",
+    "match_name": "3 CARD JUDGEMENT - A",
+    "runners": [
+      {
+        "market_id": "-99.99.0040.winner",
+        "selectionId": 32225953,
+        "selection_id": 32225953,
+        "name": "YES (Back) 1.78",
+        "selection_name": "YES (Back) 1.78",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0040.winner",
+        "selectionId": 42245922,
+        "selection_id": 42245922,
+        "name": "NO (Lay) 1.84",
+        "selection_name": "NO (Lay) 1.84",
+        "sort_priority": 2,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0023",
+    "series_name": "32 CARDS - B",
+    "match_id": "99.0023",
+    "name": "32 CARDS - B",
+    "match_name": "32 CARDS - B",
+    "runners": [
+      {
+        "market_id": "-99.99.0023.lucky-number",
+        "selectionId": 0,
+        "selection_id": 0,
+        "name": "0",
+        "selection_name": "0",
+        "sort_priority": 1,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0023.lucky-number",
+        "selectionId": 1,
+        "selection_id": 1,
+        "name": "1",
+        "selection_name": "1",
+        "sort_priority": 2,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0023.lucky-number",
+        "selectionId": 2,
+        "selection_id": 2,
+        "name": "2",
+        "selection_name": "2",
+        "sort_priority": 3,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0023.lucky-number",
+        "selectionId": 3,
+        "selection_id": 3,
+        "name": "3",
+        "selection_name": "3",
+        "sort_priority": 4,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0023.lucky-number",
+        "selectionId": 4,
+        "selection_id": 4,
+        "name": "4",
+        "selection_name": "4",
+        "sort_priority": 5,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0023.lucky-number",
+        "selectionId": 5,
+        "selection_id": 5,
+        "name": "5",
+        "selection_name": "5",
+        "sort_priority": 6,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0023.lucky-number",
+        "selectionId": 6,
+        "selection_id": 6,
+        "name": "6",
+        "selection_name": "6",
+        "sort_priority": 7,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0023.lucky-number",
+        "selectionId": 7,
+        "selection_id": 7,
+        "name": "7",
+        "selection_name": "7",
+        "sort_priority": 8,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0023.lucky-number",
+        "selectionId": 8,
+        "selection_id": 8,
+        "name": "8",
+        "selection_name": "8",
+        "sort_priority": 9,
+        "sort_name": null
+      },
+      {
+        "market_id": "-99.99.0023.lucky-number",
+        "selectionId": 9,
+        "selection_id": 9,
+        "name": "9",
+        "selection_name": "9",
+        "sort_priority": 10,
+        "sort_name": null
+      }
+    ],
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  }
+]

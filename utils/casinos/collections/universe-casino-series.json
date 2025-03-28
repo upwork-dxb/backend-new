@@ -1,0 +1,233 @@
+[
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0031",
+    "name": "LUCKY 7 - B",
+    "series_name": "LUCKY 7 - B",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0018",
+    "name": "DRAGON TIGER",
+    "series_name": "DRAGON TIGER",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0041",
+    "name": "DTL TEENPATTI - A",
+    "series_name": "DTL TEENPATTI - A",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0046",
+    "name": "20-20 CARD RACE",
+    "series_name": "20-20 CARD RACE",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0013",
+    "name": "1DAY TEEN PATTI",
+    "series_name": "1DAY TEEN PATTI",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0010",
+    "name": "20-20 TEEN PATTI",
+    "series_name": "20-20 TEEN PATTI",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0022",
+    "name": "32 CARDS - A",
+    "series_name": "32 CARDS - A",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0036",
+    "name": "BACCARAT - C",
+    "series_name": "BACCARAT - C",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0034",
+    "name": "ANDAR BAHAR - C",
+    "series_name": "ANDAR BAHAR - C",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0025",
+    "name": "ANDAR BAHAR - A",
+    "series_name": "ANDAR BAHAR - A",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0032",
+    "name": "FAST LUCKY 7",
+    "series_name": "FAST LUCKY 7",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0030",
+    "name": "LUCKY 7 - A",
+    "series_name": "LUCKY 7 - A",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0020",
+    "name": "FAST DRAGON TIGER",
+    "series_name": "FAST DRAGON TIGER",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0019",
+    "name": "20-20 DRAGON TIGER",
+    "series_name": "20-20 DRAGON TIGER",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0007",
+    "name": "20-20 POKER - A",
+    "series_name": "20-20 POKER - A",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0014",
+    "name": "MUFLIS TEEN PATTI",
+    "series_name": "MUFLIS TEEN PATTI",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0001",
+    "name": "BACCARAT",
+    "series_name": "BACCARAT",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0002",
+    "name": "BACCARAT - A",
+    "series_name": "BACCARAT - A",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0005",
+    "name": "AMAR AKBAR ANTHONY",
+    "series_name": "AMAR AKBAR ANTHONY",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0040",
+    "name": "3 CARD JUDGEMENT - A",
+    "series_name": "3 CARD JUDGEMENT - A",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  },
+  {
+    "sport_id": "-99",
+    "sport_name": "Universe Casino",
+    "series_id": "99.0023",
+    "name": "32 CARDS - B",
+    "series_name": "32 CARDS - B",
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  }
+]

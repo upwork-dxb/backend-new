@@ -1,0 +1,14 @@
+{
+  "enable": "yes",
+  "allow_local": "no",
+  "is_sadmin": "no",
+  "host": "",
+  "port": 6380,
+  "tls_enabled": "no",
+  "redisSSL_TLS": {
+    "auth_pass": "",
+    "tls": {
+      "servername": ""
+    }
+  }
+}

@@ -1,0 +1,217 @@
+###
+@host = http://localhost:3002/api/v1
+@header = Content-type: application/json
+@token = Authorization: Bearer 
+
+###
+POST {{host}}/sports/createNewSport
+{{header}}
+{{token}}
+{
+ "name": "Cricket",
+ "sport_id": "1"
+}
+
+###
+GET {{host}}/sports/getUserSportsPartnerShipsDetails/60ed598d7a2d9531801a6447
+{{header}}
+{{token}}
+
+###
+{
+  "statusCode": 200,
+  "status": true,
+  "data": [
+    {
+      "parent_id": "60ed211d47b213057a458514",
+      "updated_at": null,
+      "_id": "60ed598d7a2d9531801a6453",
+      "sports_share": [
+        {
+          "_id": "60ed598d7a2d9531801a6454",
+          "sportId": {
+            "is_manual": 0,
+            "is_active": 1,
+            "is_show_last_result": 0,
+            "is_show_tv": 0,
+            "is_live_sport": 0,
+            "is_super_admin_commission": 0,
+            "order_by": 0,
+            "min_odds_limit": 0,
+            "max_odss_limit": 0,
+            "updated_at": null,
+            "_id": "60e2d1e7b3cfb50247826e3e",
+            "name": "Cricket",
+            "sport_id": "4",
+            "create_at": "2021-07-05T09:33:27.476Z",
+            "__v": 0
+          },
+          "sport_id": 4,
+          "percentage": [
+            {
+              "user_id": "60ed211d47b213057a458514",
+              "_id": "60ed598d7a2d9531801a6455",
+              "share": 92
+            },
+            {
+              "user_id": "60ed598d7a2d9531801a6447",
+              "_id": "60ed598d7a2d9531801a6456",
+              "share": 8
+            }
+          ]
+        },
+        {
+          "_id": "60ed598d7a2d9531801a6457",
+          "sportId": {
+            "is_manual": 0,
+            "is_active": 1,
+            "is_show_last_result": 0,
+            "is_show_tv": 0,
+            "is_live_sport": 0,
+            "is_super_admin_commission": 0,
+            "order_by": 0,
+            "min_odds_limit": 0,
+            "max_odss_limit": 0,
+            "updated_at": null,
+            "_id": "60e2d227b3cfb50247826e40",
+            "name": "Soccer",
+            "sport_id": "1",
+            "create_at": "2021-07-05T09:34:31.533Z",
+            "__v": 0
+          },
+          "sport_id": 1,
+          "percentage": [
+            {
+              "user_id": "60ed211d47b213057a458514",
+              "_id": "60ed598d7a2d9531801a6458",
+              "share": 92
+            },
+            {
+              "user_id": "60ed598d7a2d9531801a6447",
+              "_id": "60ed598d7a2d9531801a6459",
+              "share": 8
+            }
+          ]
+        },
+        {
+          "_id": "60ed598d7a2d9531801a645a",
+          "sportId": {
+            "is_manual": 0,
+            "is_active": 1,
+            "is_show_last_result": 0,
+            "is_show_tv": 0,
+            "is_live_sport": 0,
+            "is_super_admin_commission": 0,
+            "order_by": 0,
+            "min_odds_limit": 0,
+            "max_odss_limit": 0,
+            "updated_at": null,
+            "_id": "60e2d25fb3cfb50247826e42",
+            "name": "Tennis",
+            "sport_id": "2",
+            "create_at": "2021-07-05T09:35:27.098Z",
+            "__v": 0
+          },
+          "sport_id": 2,
+          "percentage": [
+            {
+              "user_id": "60ed211d47b213057a458514",
+              "_id": "60ed598d7a2d9531801a645b",
+              "share": 92
+            },
+            {
+              "user_id": "60ed598d7a2d9531801a6447",
+              "_id": "60ed598d7a2d9531801a645c",
+              "share": 8
+            }
+          ]
+        },
+        {
+          "_id": "60ed598d7a2d9531801a645d",
+          "sportId": {
+            "is_manual": 0,
+            "is_active": 1,
+            "is_show_last_result": 0,
+            "is_show_tv": 0,
+            "is_live_sport": 0,
+            "is_super_admin_commission": 0,
+            "order_by": 0,
+            "min_odds_limit": 0,
+            "max_odss_limit": 0,
+            "updated_at": null,
+            "_id": "60e2d27fb3cfb50247826e44",
+            "name": "Live Games",
+            "sport_id": "-100",
+            "create_at": "2021-07-05T09:35:59.162Z",
+            "__v": 0
+          },
+          "sport_id": -100,
+          "percentage": [
+            {
+              "user_id": "60ed211d47b213057a458514",
+              "_id": "60ed598d7a2d9531801a645e",
+              "share": 92
+            },
+            {
+              "user_id": "60ed598d7a2d9531801a6447",
+              "_id": "60ed598d7a2d9531801a645f",
+              "share": 8
+            }
+          ]
+        }
+      ],
+      "user_id": "60ed598d7a2d9531801a6447",
+      "create_at": "2021-07-13T09:14:53.754Z",
+      "__v": 0
+    }
+  ],
+  "msg": "User sports partnershipsDetails details."
+}
+
+###
+GET {{host}}/sports/getAllSportsList
+{{header}}
+{{token}}
+
+###
+POST {{host}}/sports/getUserSportsWiseSettingDetails
+{{header}}
+{{token}}
+{
+ "userid": "610a2f87069ad5020aee4515"
+}
+
+###
+POST {{host}}/sports/updateSportWiseSettingDetails
+{{header}}
+{{token}}
+{
+  "user_id": "6112696fbbc60909998aaf2f",
+  "sports_settings": []
+ 
+}
+
+###
+POST {{host}}/sports/updateSportsStatus
+{{header}}
+{{token}}
+
+{
+  "userid": "6112696fbbc60909998aaf2f",
+  "sport_id": "4",
+  "is_active": 0,
+  "user_typeId":4
+
+}
+
+
+###
+GET {{host}}/sports/getAllActiveSports
+{{header}}
+{{token}}
+
+
+{
+  "userid": "6112696fbbc60909998aaf2f",
+
+}

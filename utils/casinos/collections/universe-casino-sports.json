@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Universe Casino",
+    "sport_id": "-99",
+    "is_live_sport": 1,
+    "order_by": 6,
+    "market_min_stack": 100,
+    "market_max_stack": 10000,
+    "market_min_odds_rate": 1,
+    "market_max_odds_rate": 20
+  }
+]

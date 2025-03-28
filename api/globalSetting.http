@@ -1,0 +1,57 @@
+###
+@host = http://localhost:3002/api/v1
+@header = Content-type: application/json
+@token = Authorization: Bearer 
+
+
+###
+POST {{host}}/globalsetting/createApiUrlSetting
+{{header}}
+{{token}}
+{
+  "online_url":"http://51.143.173.5/live_api/matchapi.php?Action=listCompetitions&EventTypeID=",
+"online_sports_url":"https://admin.allow24.in/sports.json",
+"get_live_game_data":"https://7dayexch.biz/api/v2/getT10Odds?id=",
+"live_game_sport_id":"-100"
+}
+
+
+###
+POST {{host}}/globalsetting/createApiUrlSetting
+{{header}}
+{{token}}
+{
+ "site_title":null,
+ "site_message":" Wish you all the best !!! Other games will be starting soon... ",
+ "is_tv":0,
+ "is_captcha":0,
+ "is_unmatched_bet":0,
+ "odds_limit":12,
+ "is_pdc_charge":0,
+ "is_pdc_distribute":0,
+ "is_pdc_refund":0,
+ "is_pdc_daily_deduct":0,
+ "pdc_charge":0,
+ "pdc_refund":0,
+ "logo":"logo.png",
+ "favicon":"favicon.ico",
+ "one_click_stack":[1000,5000,10000],
+ "match_stack":[100,2000,5000,10000,50000],
+ "session_stack":[500,1000,3000,5000,10000,25000],
+ "bet_allow_time_before":36000000,
+ "super_admin_commission":0,
+ "show_commission":0,
+ "terms_conditions":"<ul><li>In valid bets will be deleted automatically or manually and there will be no claim available for such bets </li><li>In case  of any dispute , Admin has to right to take the final decision </li><li>In a cancelled/NO Result / Abondened  match all bets will be cancelled </li><li>If a  match got  cancelled due to rain, all completed fancy/session market will be settled </li><li>invalid  bets(bets with unfair rate) can be  deleted even after settling . There  will be no claim </li><li>There can be some technical issue in the software. Admin is not reponsible for such case. Play at your own risk </li><li>In case of a tied match, all completed session markets will be settled </li></ul>","site_under_maintenance":0,"theam_code":"backpopup","bet_password":"123456","auto_create":0,"is_change_in_balance":0,"version":"1.0","create_at":{"$date":"2021-07-20T15:19:33.889Z"},"__v":0,"is_socket":1}
+}
+
+
+###
+GET {{host}}/globalsetting/updateUseSocketStatus
+{{header}}
+{{token}}
+
+
+###
+GET {{host}}/globalsetting/getGlobalSettingDetails
+{{header}}
+{{token}}

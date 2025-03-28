@@ -1,0 +1,43 @@
+###
+@host = http://localhost/api/v1
+@header = Content-type: application/json
+@token = Authorization: Bearer 
+
+###
+POST {{host}}/website/createWebSiteSetting
+{{header}}
+{{token}}
+{
+ "host_name": "https://anybetstwo9999.com",
+ "site_title": "https://anybetstwo6790.com",
+}
+
+###
+GET {{host}}/website/getAllWebsite
+{{header}}
+{{token}}
+
+###
+POST {{host}}/website/updateWebsite/60e80d9931a8ba00c7c94335
+{{header}}
+{{token}}
+{
+"host_name": "https://anybetstwo9999.com",
+"site_title": "https://anybetstwo6790.com",
+"id": "60e80d9931a8ba00c7c94335"
+}
+
+###
+GET {{host}}/website/deleteWebsiteDomain/60e31837f528d20d249c0984
+{{header}}
+{{token}}
+
+###
+POST {{host}}/website/searchDomains
+{{header}}
+{{token}}
+{
+"search": "https://allow29.net",
+"page": 1,
+"limit": 10
+}

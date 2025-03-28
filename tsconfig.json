@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "noEmit": true,
+    "target": "ES6",
+    "module": "system",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true
+  },
+  "include": [
+    "**/*"
+  ],
+  "exclude": [
+    "node_modules", // Exclude node_modules folder
+    ".git",
+    "**/node_modules/*",
+  ],
+  "typeAcquisition": {
+    "enable": true
+  }
+}

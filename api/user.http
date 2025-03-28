@@ -1,0 +1,785 @@
+###
+@host = http://localhost:3002/api/v1
+@header = Content-type: application/json
+@token = Authorization: Bearer 
+
+### For Super Admin
+POST {{host}}/user/register
+{{header}}
+{{token}}
+
+{
+  "parent_id": null,
+  "parent_name": null,
+  "user_name": "super",
+  "name": "super",
+  "password": "123456",
+  "user_type_id": 0,
+  "raw_password": "123456",
+  "ip_address": "127.0.0.1",
+  "create_no_of_child": 0,
+  "child_level": 0,
+  "point": 1,
+  "exposure_limit": 0,
+  "domain": "61360834d7d5b533b007fc9f",
+  "parent_level_ids":[
+  ],
+  "permissions": [
+    {
+      "name": "Cricket",
+      "is_allow": true,
+      "alias_name": "cricket"
+    },
+    {
+      "name": "Soccer",
+      "is_allow": true,
+      "alias_name": "soccer"
+    },
+    {
+      "name": "Tennis",
+      "is_allow": true,
+      "alias_name": "tennis"
+    }
+  ],
+  "sports_share": [
+    {
+      "sportId": "6135fe42d7d5b533b007fba4",
+      "sport_id": 4,
+      "percentage": [
+        {
+          "parent_share": 100,
+          "parent_partnership_share": 0,
+          "user_share": 100,
+          "user_id": null,
+          "user_type_id": 0,
+          "share": 100,
+          "user_name": "super"
+        }
+      ]
+    },
+    {
+      "sportId": "6135fe6ed7d5b533b007fbc1",
+      "sport_id": 1,
+      "percentage": [
+        {
+          "parent_share": 100,
+          "parent_partnership_share": 0,
+          "user_share": 100,
+          "user_id": null,
+          "user_type_id": 0,
+          "share": 100,
+          "user_name": "super"
+        }
+      ]
+    },
+    {
+      "sportId": "6135feffd7d5b533b007fbdc",
+      "sport_id": 2,
+      "percentage": [
+        {
+          "parent_share": 100,
+          "parent_partnership_share": 0,
+          "user_share": 100,
+          "user_id": null,
+          "user_type_id": 0,
+          "share": 100,
+          "user_name": "super"
+        }
+      ]
+    }
+  ],
+  "match_commission": 2,
+  "session_commission": 3,
+  "parent_commission": [
+  ],
+  "sports_settings": [
+    {
+      "sportId": "6135fe42d7d5b533b007fba4",
+      "sport_id": 4,
+      "super_admin_commission": 0,
+      "market_fresh_delay": 5,
+      "market_min_stack": 100,
+      "market_max_stack": 1000,
+      "market_max_loss": 500,
+      "market_max_profit": 1000,
+      "market_rate_limit": 50,
+      "market_rate_limit_point": 20,
+      "point_place_before_in_play": 10,
+      "session_fresh_delay": 5,
+      "session_min_stack": 100,
+      "session_max_stack": 1000,
+      "session_max_loss": 500,
+      "session_max_profit": 1000,
+      "session_per_rate_max_stack": 20
+    },
+    {
+      "sportId": "6135fe6ed7d5b533b007fbc1",
+      "sport_id": 1,
+      "super_admin_commission": 0,
+      "market_fresh_delay": 5,
+      "market_min_stack": 100,
+      "market_max_stack": 1000,
+      "market_max_loss": 500,
+      "market_max_profit": 1000,
+      "market_rate_limit": 50,
+      "market_rate_limit_point": 20,
+      "point_place_before_in_play": 10,
+      "session_fresh_delay": 0,
+      "session_min_stack": 0,
+      "session_max_stack": 0,
+      "session_max_loss": 0,
+      "session_max_profit": 0,
+      "session_per_rate_max_stack": 0
+    },
+    {
+      "sportId": "6135feffd7d5b533b007fbdc",
+      "sport_id": 2,
+      "super_admin_commission": 0,
+      "market_fresh_delay": 5,
+      "market_min_stack": 100,
+      "market_max_stack": 1000,
+      "market_max_loss": 500,
+      "market_max_profit": 1000,
+      "market_rate_limit": 50,
+      "market_rate_limit_point": 20,
+      "point_place_before_in_play": 10,
+      "session_fresh_delay": 0,
+      "session_min_stack": 0,
+      "session_max_stack": 0,
+      "session_max_loss": 0,
+      "session_max_profit": 0,
+      "session_per_rate_max_stack": 0
+    }
+  ]
+}
+
+### For Agents
+POST {{host}}/user/register
+{{header}}
+{{token}}
+
+{
+  "parent_id" : "613e005c45c65ffa9588cf7f",
+  "parent_name": "super",
+  "user_name": "adminx",
+  "name": "adminx",
+  "password": "123456",
+  "user_type_id": 5,
+  "raw_password": "123456",
+  "ip_address": "127.0.0.1",
+  "create_no_of_child": 5,
+  "child_level": 5,
+  "point": 1,
+  "exposure_limit": 0,
+  "domain": "61360834d7d5b533b007fc9f",
+  "parent_level_ids":[
+    {
+      "user_id": "613e005c45c65ffa9588cf7f",
+      "type_id": 0
+    }
+  ],
+  "permissions": [
+    {
+      "name": "Cricket",
+      "is_allow": true,
+      "alias_name": "cricket"
+    },
+    {
+      "name": "Soccer",
+      "is_allow": true,
+      "alias_name": "soccer"
+    },
+    {
+      "name": "Tennis",
+      "is_allow": true,
+      "alias_name": "tennis"
+    }
+  ],
+  "sports_share": [
+    {
+      "sportId": "6135fe42d7d5b533b007fba4",
+      "sport_id": 4,
+      "percentage": [
+        {
+          "parent_id": null,
+          "parent_share": 100,
+          "parent_partnership_share": 0,
+          "user_share": 100,
+          "share": 10,
+          "user_id": "613e005c45c65ffa9588cf8a",
+          "user_type_id": 0,
+          "user_name": "super"
+        },
+        {
+          "parent_id": "613e005c45c65ffa9588cf8a",
+          "parent_share": 100,
+          "parent_partnership_share": 10,
+          "user_share": 90,
+          "share": 90,
+          "user_id": null,
+          "user_type_id": 0,
+          "user_name": ""
+        }
+      ]
+    },
+    {
+      "sportId": "6135fe6ed7d5b533b007fbc1",
+      "sport_id": 1,
+      "percentage": [
+        {
+          "parent_id": null,
+          "parent_share": 100,
+          "parent_partnership_share": 0,
+          "user_share": 100,
+          "share": 10,
+          "user_id": "613e005c45c65ffa9588cf8a",
+          "user_type_id": 0,
+          "user_name": "super"
+        },
+        {
+          "parent_id": "613e005c45c65ffa9588cf8a",
+          "parent_share": 100,
+          "parent_partnership_share": 10,
+          "user_share": 90,
+          "share": 90,
+          "user_id": null,
+          "user_type_id": 0,
+          "user_name": ""
+        }
+      ]
+    },
+    {
+      "sportId": "6135feffd7d5b533b007fbdc",
+      "sport_id": 2,
+      "percentage": [
+        {
+          "parent_id": null,
+          "parent_share": 100,
+          "parent_partnership_share": 0,
+          "user_share": 100,
+          "share": 10,
+          "user_id": "613e005c45c65ffa9588cf8a",
+          "user_type_id": 0,
+          "user_name": "super"
+        },
+        {
+          "parent_id": "613e005c45c65ffa9588cf8a",
+          "parent_share": 100,
+          "parent_partnership_share": 10,
+          "user_share": 90,
+          "share": 90,
+          "user_id": null,
+          "user_type_id": 0,
+          "user_name": ""
+        }
+      ]
+    }
+  ],
+  "match_commission": 1,
+  "session_commission": 2,
+  "parent_commission":[
+    {
+      "user_type_id": 0,
+      "match_commission": 2,
+      "session_commission": 3,
+      "user_name": "super",
+      "user_id": "613e005c45c65ffa9588cf7f"
+    }
+  ]
+}
+
+### For Agents level 3
+POST {{host}}/user/register
+{{header}}
+{{token}}
+
+{
+  "parent_id" : "613e0e57c53d63ff922ca8bb",
+  "parent_name": "super",
+  "user_name": "adminxl1",
+  "name": "adminxl1",
+  "password": "123456",
+  "user_type_id": 4,
+  "raw_password": "123456",
+  "ip_address": "127.0.0.1",
+  "create_no_of_child": 4,
+  "child_level": 4,
+  "point": 1,
+  "exposure_limit": 0,
+  "domain": "61360834d7d5b533b007fc9f",
+  "parent_level_ids":[
+    {
+      "user_id": "613e005c45c65ffa9588cf7f",
+      "type_id": 0
+    },
+    {
+      "user_id": "613e0e57c53d63ff922ca8bb",
+      "type_id": 5
+    }
+  ],
+  "permissions": [
+    {
+      "name": "Cricket",
+      "is_allow": true,
+      "alias_name": "cricket"
+    },
+    {
+      "name": "Soccer",
+      "is_allow": true,
+      "alias_name": "soccer"
+    },
+    {
+      "name": "Tennis",
+      "is_allow": true,
+      "alias_name": "tennis"
+    }
+  ],
+  "sports_share": [
+    {
+      "sportId": "6135fe42d7d5b533b007fba4",
+      "sport_id": 4,
+      "percentage": [
+        {
+          "parent_id": null,
+          "parent_share": 100,
+          "parent_partnership_share": 0,
+          "user_share": 100,
+          "share": 10,
+          "user_id": "613e005c45c65ffa9588cf8a",
+          "user_type_id": 0,
+          "user_name": "super"
+        },
+        {
+          "parent_id": "613e005c45c65ffa9588cf8a",
+          "parent_share": 100,
+          "parent_partnership_share": 10,
+          "user_share": 90,
+          "share": 10,
+          "user_id": "613e0e57c53d63ff922ca8bb",
+          "user_type_id": 5,
+          "user_name": "adminx"
+        },
+        {
+          "parent_id": "613e0e57c53d63ff922ca8bb",
+          "parent_share": 90,
+          "parent_partnership_share": 10,
+          "user_share": 80,
+          "share": 80,
+          "user_id": null,
+          "user_type_id": 0,
+          "user_name": ""
+        }
+      ]
+    },
+    {
+      "sportId": "6135fe6ed7d5b533b007fbc1",
+      "sport_id": 1,
+      "percentage": [
+        {
+          "parent_id": null,
+          "parent_share": 100,
+          "parent_partnership_share": 0,
+          "user_share": 100,
+          "share": 10,
+          "user_id": "613e005c45c65ffa9588cf8a",
+          "user_type_id": 0,
+          "user_name": "super"
+        },
+        {
+          "parent_id": "613e005c45c65ffa9588cf8a",
+          "parent_share": 100,
+          "parent_partnership_share": 10,
+          "user_share": 90,
+          "share": 10,
+          "user_id": "613e0e57c53d63ff922ca8bb",
+          "user_type_id": 5,
+          "user_name": "adminx"
+        },
+        {
+          "parent_id": "613e0e57c53d63ff922ca8bb",
+          "parent_share": 90,
+          "parent_partnership_share": 10,
+          "user_share": 80,
+          "share": 80,
+          "user_id": null,
+          "user_type_id": 0,
+          "user_name": ""
+        }
+      ]
+    },
+    {
+      "sportId": "6135feffd7d5b533b007fbdc",
+      "sport_id": 2,
+      "percentage": [
+        {
+          "parent_id": null,
+          "parent_share": 100,
+          "parent_partnership_share": 0,
+          "user_share": 100,
+          "share": 10,
+          "user_id": "613e005c45c65ffa9588cf8a",
+          "user_type_id": 0,
+          "user_name": "super"
+        },
+        {
+          "parent_id": "613e005c45c65ffa9588cf8a",
+          "parent_share": 100,
+          "parent_partnership_share": 10,
+          "user_share": 90,
+          "share": 10,
+          "user_id": "613e0e57c53d63ff922ca8bb",
+          "user_type_id": 5,
+          "user_name": "adminx"
+        },
+        {
+          "parent_id": "613e0e57c53d63ff922ca8bb",
+          "parent_share": 90,
+          "parent_partnership_share": 10,
+          "user_share": 80,
+          "share": 80,
+          "user_id": null,
+          "user_type_id": 0,
+          "user_name": ""
+        }
+      ]
+    }
+  ],
+  "match_commission": 1,
+  "session_commission": 2,
+  "parent_commission":[
+    {
+      "match_commission": 2,
+      "session_commission": 3,
+      "user_id": "613e005c45c65ffa9588cf7f",
+      "user_type_id": 0,
+      "user_name": "super"
+    },
+    {
+      "match_commission": 2,
+      "session_commission": 3,
+      "user_id": "613e0e57c53d63ff922ca8bb",
+      "user_type_id": 5,
+      "user_name": "adminx"
+    }
+  ]
+}
+
+### admin Login
+POST {{host}}/user/adminLogin
+{{header}}
+Basic YXBwbGljYXRpb246c2VjcmV0
+
+{
+  "user_name": "adminonenew",
+  "password": "12345",
+  "grant_type" : "password"
+}
+
+
+###
+GET {{host}}/user/usersList
+{{header}}
+{{token}}
+
+
+###
+GET {{host}}/user/userdetails/60e832e561e9770136b1481d
+{{header}}
+{{token}}
+
+
+###
+POST {{host}}/user/userDetailsWithChildLevelDetails/60e832e561e9770136b1481d
+{{header}}
+{{token}}
+{
+  	"limit": 10,
+		"page": 1,
+		"searchQuery": "pawanmi",
+		"domainId": "60e832e561e9770136b14765",
+		"levelId": 6
+}
+
+###
+POST {{host}}/user/totalNumberOfChilds/60e832e561e9770136b1481d
+{{header}}
+{{token}}
+
+{
+  
+		"searchQuery": "pawanmi",
+		"domainId": "60e832e561e9770136b14765",
+		"levelId": 6
+}
+
+###
+POST {{host}}/user/updateForChangePasswordAfterLogin/60e832e561e9770136b1481d
+{{header}}
+
+{
+  "new_password": "12345",
+  "confirm_password": "12345",
+}
+
+
+###
+POST {{host}}/user/lockAccountOfUser/60e832e561e9770136b1481d
+{{header}}
+
+{
+   
+    "self_lock_user": 1
+   
+}
+
+
+###
+POST {{host}}/user/updateTransactionPasswordOfUser/60e832e561e9770136b1481d
+{{header}}
+
+{
+   
+    "transaction_password": "XycZ45Hk"
+   
+}
+
+
+###
+POST {{host}}/user/closeAndReOpenAccountOfUserAndTheirChilds/60f2becfefd992295c4cb17e
+{{header}}
+{{token}}
+
+
+{
+   
+    "self_close_account": 1
+   
+}
+
+
+###
+POST {{host}}/user/checkUserName
+{{header}}
+{{token}}
+
+{
+  "user_name": "pawanmi"
+}
+
+
+###
+POST {{host}}/user/getClosedUsersList/60f2becfefd992295c4cb17e
+{{header}}
+{{token}}
+
+{
+   
+  "limit": 10,
+  "page": 1
+   
+}
+
+###
+GET {{host}}/user/totalNumberOfClosedUser/60f2becfefd992295c4cb17e
+{{header}}
+{{token}}
+
+###
+GET {{host}}/user/getUserDetailsWithParentDetails/60f2becfefd992295c4cb17e
+{{header}}
+{{token}}
+
+###
+POST {{host}}user/updateChildPassword
+{{header}}
+{
+  "childUserId":"60f2becfefd992295c4cb17e",
+  "newPassword":"12345"
+}
+
+###
+POST {{host}}/user/getUserMatchStack
+{{header}}
+{
+  "userid": "60f6f2c6d22f8805ddbaafaa"
+}
+
+###
+POST {{host}}/user/updateUserMatchStack
+{{header}}
+{
+"userid": "60f6f2c6d22f8805ddbaafaa"
+"match_stack" : [50,100,500]
+ }
+
+ 
+###
+POST {{host}}/user/getPartnershipListByUserId
+{{header}}
+{
+  "user_id": "60f7f6e133718904ab35853a"
+}
+
+
+###
+POST {{host}}/user/updatePartnershipList
+{{header}}
+{
+      "userid": "60f7f6e133718904ab35853a",
+      "sports_share": [
+      {
+        "_id": "60f7f6e133718904ab358549",
+        "sportId": "60e2d1e7b3cfb50247826e3e",
+        "sport_id": 4,
+        "percentage": [
+          {
+            "user_id": "60f6f1ecd22f8805ddbaaf75",
+            "_id": "60f7f6e133718904ab35854a",
+            "share": 6
+          },
+          {
+            "user_id": "60f7f6e133718904ab35853a",
+            "_id": "60f7f6e133718904ab35854b",
+            "share": 94
+          }
+        ]
+      },
+      {
+        "_id": "60f7f6e133718904ab35854c",
+        "sportId": "60e2d227b3cfb50247826e40",
+        "sport_id": 1,
+        "percentage": [
+          {
+            "user_id": "60f6f1ecd22f8805ddbaaf75",
+            "_id": "60f7f6e133718904ab35854d",
+            "share": 5
+          },
+          {
+            "user_id": "60f7f6e133718904ab35853a",
+            "_id": "60f7f6e133718904ab35854e",
+            "share": 95
+          }
+        ]
+      },
+      {
+        "_id": "60f7f6e133718904ab35854f",
+        "sportId": "60e2d25fb3cfb50247826e42",
+        "sport_id": 2,
+        "percentage": [
+          {
+            "user_id": "60f6f1ecd22f8805ddbaaf75",
+            "_id": "60f7f6e133718904ab358550",
+            "share": 5
+          },
+          {
+            "user_id": "60f7f6e133718904ab35853a",
+            "_id": "60f7f6e133718904ab358551",
+            "share": 95
+          }
+        ]
+      },
+      {
+        "_id": "60f7f6e133718904ab358552",
+        "sportId": "60e2d27fb3cfb50247826e44",
+        "sport_id": -100,
+        "percentage": [
+          {
+            "user_id": "60f6f1ecd22f8805ddbaaf75",
+            "_id": "60f7f6e133718904ab358553",
+            "share": 5
+          },
+          {
+            "user_id": "60f7f6e133718904ab35853a",
+            "_id": "60f7f6e133718904ab358554",
+            "share": 95
+          }
+        ]
+      }
+    ]
+
+}
+
+
+###
+POST {{host}}/user/updateUserStatusBettingLockUnlock
+{{header}}
+{
+  "user_id": "60f7f6e133718904ab35853a"
+}
+
+
+###
+POST {{host}}/user/updateUserStatusFancyBetLock
+{{header}}
+{
+  "user_id": "60f7f6e133718904ab35853a",
+  "is_child_lock": 1
+}
+
+
+###
+POST {{host}}/user/updateUserStatusFancyBetUnlock
+{{header}}
+{
+  "user_id": "60f7f6e133718904ab35853a",
+  "is_child_lock": 1
+}
+
+
+###
+POST {{host}}/user/getUserBalance
+{{header}}
+{
+  "userid": "60f7f6e133718904ab35853a",
+ 
+}
+
+
+###
+POST {{host}}/user/searchUser
+{{header}}
+{
+  "userid": "60f7f6e133718904ab35853a",
+ "search": "pawanmi",
+  "page": 1,
+	"limit": 10
+}
+
+
+###
+POST {{host}}/user/totalNumberOfSearchUser
+{{header}}
+{
+  "userid": "60f7f6e133718904ab35853a",
+ "search": "pawanmi",
+ 
+}
+
+
+###
+POST {{host}}/user/totalNumberOfSearchUser
+{{header}}
+{
+  "userid": "60f7f6e133718904ab35853a",
+ "search": "pawanmi",
+ 
+}
+
+
+###
+POST {{host}}/user/searchUserForAutoSuggest
+{{header}}
+{
+  "userid": "60f7f6e133718904ab35853a",
+ "search": "pawanmi",
+ 
+}
+
+
+###
+POST {{host}}/user/getOnlineUsersList
+{{header}}
+{
+   "userid": "610a2af0b27003016770dc60"
+ 
+}

@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "beatific-user-backend.fullname" . }}
+  labels:
+    {{- include "beatific-user-backend.labels" . | nindent 4 }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      {{- include "beatific-user-backend.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      labels:
+        {{- include "beatific-user-backend.selectorLabels" . | nindent 8 }}
+    spec:
+      serviceAccountName: {{ include "beatific-user-backend.serviceAccountName" . }}
+      containers:
+        - name: {{ .Chart.Name }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          envFrom:
+              - configMapRef:
+                    name: beatific-env-config-map-prod
+          ports:
+            - name: http
+              containerPort: 4050
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+          resources:
+              limits:
+                  memory: "1Gi"
+                  cpu: "500m"

@@ -1,0 +1,582 @@
+{
+  "EZ": {
+    "100": {
+      "name": "Baccarat",
+      "code": "100",
+      "providerCode": "EZ",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Cricket-Baccarat_1654236741380.903.jpg",
+      "sport_id": "-106",
+      "sport_name": "Ezugi"
+    },
+    "101": {
+      "name": "Cricket Baccarat",
+      "code": "101",
+      "providerCode": "EZ",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/101-cricket-baccarat_1654779323942.6428.jpg",
+      "sport_id": "-106",
+      "sport_name": "Ezugi"
+    },
+    "201": {
+      "name": "Power Blackjack",
+      "code": "201",
+      "providerCode": "EZ",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/bj 201_1654779554508.074.png",
+      "sport_id": "-106",
+      "sport_name": "Ezugi"
+    },
+    "411": {
+      "name": "Rumba Blackjack",
+      "code": "411",
+      "providerCode": "EZ",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Rumba Blackjack_1654236705511.3.jpg",
+      "sport_id": "-106",
+      "sport_name": "Ezugi"
+    },
+    "1000": {
+      "name": "Namaste Roulette",
+      "code": "1000",
+      "providerCode": "EZ",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Namaste Roulette_1654236673720.1587.png",
+      "sport_id": "-106",
+      "sport_name": "Ezugi"
+    },
+    "30100": {
+      "name": "Casino Marina Baccarat 3",
+      "code": "30100",
+      "providerCode": "EZ",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Casino-Marina-Baccarat-3_1654236649824.2595.jpg",
+      "sport_id": "-106",
+      "sport_name": "Ezugi"
+    },
+    "45100": {
+      "name": "Cricket War",
+      "code": "45100",
+      "providerCode": "EZ",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/41100_1654778686156.9846.jpg",
+      "sport_id": "-106",
+      "sport_name": "Ezugi"
+    },
+    "224000": {
+      "name": "Sic Bo",
+      "code": "224000",
+      "providerCode": "EZ",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Sic Bo_1654236713622.9116.jpg",
+      "sport_id": "-106",
+      "sport_name": "Ezugi"
+    },
+    "227100": {
+      "name": "Teen Patti 3 Card",
+      "code": "227100",
+      "providerCode": "EZ",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/teen patti_1654781152535.8638.png",
+      "sport_id": "-106",
+      "sport_name": "Ezugi"
+    },
+    "227103": {
+      "name": "One Day TeenPatti",
+      "code": "227103",
+      "providerCode": "EZ",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/One Day TeenPatti_1654236684534.6692.jpg",
+      "sport_id": "-106",
+      "sport_name": "Ezugi"
+    },
+    "228001": {
+      "name": "Lucky 7",
+      "code": "228001",
+      "providerCode": "EZ",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Lucky 7_1654236661478.3225.jpg",
+      "sport_id": "-106",
+      "sport_name": "Ezugi"
+    },
+    "228002": {
+      "name": "32 Cards",
+      "code": "228002",
+      "providerCode": "EZ",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/32 Cards_1654237351482.8108.jpg",
+      "sport_id": "-106",
+      "sport_name": "Ezugi"
+    },
+    "328000": {
+      "name": "OTT Andar Bahar",
+      "code": "328000",
+      "providerCode": "EZ",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/OTT-Andar-Bahar-Marina_1654236696863.7346.jpg",
+      "sport_id": "-106",
+      "sport_name": "Ezugi"
+    },
+    "507000": {
+      "name": "Casino Hold'em",
+      "code": "507000",
+      "providerCode": "EZ",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Casino-Hold'em_1654236638405.1816.jpg",
+      "sport_id": "-106",
+      "sport_name": "Ezugi"
+    }
+  },
+  "SN": {
+    "D3TP": {
+      "name": "3 Player TeenPatti",
+      "code": "D3TP",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/3-player-teen-patti_1654236210953.2373.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "AB2": {
+      "name": "Goa Andar Bahar",
+      "code": "AB2",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Goas-Andar-Bahar_1654236307940.8186.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "CR": {
+      "name": "King Race",
+      "code": "CR",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/king-race_1657541506838.9695.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "WM": {
+      "name": "Worli Matka",
+      "code": "WM",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Worli-Matka_1654236474317.4768.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "VTP": {
+      "name": "RNG Teen Patti",
+      "code": "VTP",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/1-RNG-Teen-Patti_1654236403712.0127.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "TP": {
+      "name": "Teen Patti",
+      "code": "TP",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Teen-Patti_1654236438589.26.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "BAC": {
+      "name": "Baccarat",
+      "code": "BAC",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Baccarat_1654236281166.404.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "DT7M": {
+      "name": "Dragon Tiger",
+      "code": "DT7M",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/dragon-tiger_1654236293489.421.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "ABC": {
+      "name": "Andar Bahar",
+      "code": "ABC",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Andar-Bahar-Yellow_1654236254276.2275.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "ARW": {
+      "name": "Akbar Romeo Walter",
+      "code": "ARW",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Akbar-Romeo-Walter_1654236226939.502.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "C32": {
+      "name": "32 Cards",
+      "code": "C32",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/32-Cards_1654236218602.8164.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "TPFO": {
+      "name": "Teen Patti Face Off",
+      "code": "TPFO",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Teen-patti-faceoff_1654236465805.4326.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "RT": {
+      "name": "Roulette",
+      "code": "RT",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Roulette_1654236426380.0781.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "TP20": {
+      "name": "Teen Patti 2020",
+      "code": "TP20",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Teen-Patti-2020_1654236450045.9844.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "AB": {
+      "name": "Andar Bahar",
+      "code": "AB",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Andar-Bahar_1654236263135.5576.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "PK": {
+      "name": "Poker",
+      "code": "PK",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Poker_1654236328983.9788.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "UD7": {
+      "name": "Lucky 7",
+      "code": "UD7",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Lucky-7_1657523911243.0068.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "DT": {
+      "name": "Dragon Tiger",
+      "code": "DT",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/dragon-tiger_1657523980556.193.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    },
+    "MTP7M": {
+      "name": "Muflis Teenpatti",
+      "code": "MTP7M",
+      "providerCode": "SN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Muflis teenpatti_1657526219320.789.jpg",
+      "sport_id": "-102",
+      "sport_name": "Supernowa"
+    }
+  },
+  "QT": {
+    "BTV-6poker": {
+      "name": "6 Poker",
+      "code": "BTV-6poker",
+      "providerCode": "QT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/6 Poker_1654237156894.3398.jpg",
+      "sport_id": "-107",
+      "sport_name": "Qtech"
+    },
+    "BTV-baccarat": {
+      "name": "Baccarat",
+      "code": "BTV-baccarat",
+      "providerCode": "QT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Baccarat_1654237163452.366.jpg",
+      "sport_id": "-107",
+      "sport_name": "Qtech"
+    },
+    "BTV-betonpoker": {
+      "name": "Best on Poker",
+      "code": "BTV-betonpoker",
+      "providerCode": "QT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Bet on Poker_1654237170103.5703.jpg",
+      "sport_id": "-107",
+      "sport_name": "Qtech"
+    },
+    "BTV-diceduel": {
+      "name": "Dice Dual",
+      "code": "BTV-diceduel",
+      "providerCode": "QT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Dice Duel_1654237178655.1594.jpg",
+      "sport_id": "-107",
+      "sport_name": "Qtech"
+    },
+    "BTV-lucky5": {
+      "name": "Lucky 5",
+      "code": "BTV-lucky5",
+      "providerCode": "QT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Lucky 5_1654237187638.846.jpg",
+      "sport_id": "-107",
+      "sport_name": "Qtech"
+    },
+    "BTV-lucky6": {
+      "name": "Lucky 6",
+      "code": "BTV-lucky6",
+      "providerCode": "QT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Lucky 6_1654237193693.8108.jpg",
+      "sport_id": "-107",
+      "sport_name": "Qtech"
+    },
+    "BTV-lucky7": {
+      "name": "Lucky 7",
+      "code": "BTV-lucky7",
+      "providerCode": "QT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Lucky 7_1654237200162.9094.jpg",
+      "sport_id": "-107",
+      "sport_name": "Qtech"
+    },
+    "BTV-speedy7": {
+      "name": "Speedy 7",
+      "code": "BTV-speedy7",
+      "providerCode": "QT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Speedy 7_1654237207804.3242.jpg",
+      "sport_id": "-107",
+      "sport_name": "Qtech"
+    },
+    "BTV-warofbets": {
+      "name": "Wars Of Bets",
+      "code": "BTV-warofbets",
+      "providerCode": "QT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/War of Bets_1654237215269.644.jpg",
+      "sport_id": "-107",
+      "sport_name": "Qtech"
+    },
+    "BTV-wheeloffortune": {
+      "name": "Wheels of Fortune",
+      "code": "BTV-wheeloffortune",
+      "providerCode": "QT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Wheel of Fortune_1654237220090.2173.jpg",
+      "sport_id": "-107",
+      "sport_name": "Qtech"
+    }
+  },
+  "PG": {
+    "BCRT": {
+      "name": "Baccarat",
+      "code": "BCRT",
+      "providerCode": "PG",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Baccarat_1654236908543.1755.jpg",
+      "sport_id": "-103",
+      "sport_name": "Power Games"
+    },
+    "BJ": {
+      "name": "BlackJack",
+      "code": "BJ",
+      "providerCode": "PG",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Blackjack_1654236915769.8381.jpg",
+      "sport_id": "-103",
+      "sport_name": "Power Games"
+    },
+    "DC": {
+      "name": "Dice",
+      "code": "DC",
+      "providerCode": "PG",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Dice_1654236924651.1128.jpg",
+      "sport_id": "-103",
+      "sport_name": "Power Games"
+    },
+    "DC3D": {
+      "name": "Dice 3D",
+      "code": "DC3D",
+      "providerCode": "PG",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/dice-3d_1654236933756.8394.jpg",
+      "sport_id": "-103",
+      "sport_name": "Power Games"
+    },
+    "HT": {
+      "name": "Heads Or Tails",
+      "code": "HT",
+      "providerCode": "PG",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Heads-or-Tails_1654236958195.856.jpg",
+      "sport_id": "-103",
+      "sport_name": "Power Games"
+    },
+    "WOF": {
+      "name": "Wheel Of Fortune",
+      "code": "WOF",
+      "providerCode": "PG",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Wheel-of-Fortune_1654236965355.1372.jpg",
+      "sport_id": "-103",
+      "sport_name": "Power Games"
+    }
+  },
+  "XPG": {
+    "1": {
+      "name": "Roulette",
+      "code": "1",
+      "providerCode": "XPG",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Roulette_1654250453662.9084.png",
+      "sport_id": "-104",
+      "sport_name": "Xprogramming"
+    },
+    "6": {
+      "name": "Black Jack",
+      "code": "6",
+      "providerCode": "XPG",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Black Jack_1654236814438.035.png",
+      "sport_id": "-104",
+      "sport_name": "Xprogramming"
+    },
+    "53": {
+      "name": "Wheel of Fortune",
+      "code": "53",
+      "providerCode": "XPG",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Texas Holdem Poker_1654236857159.6.png",
+      "sport_id": "-104",
+      "sport_name": "Xprogramming"
+    },
+    "55": {
+      "name": "Andar Bahar",
+      "code": "55",
+      "providerCode": "XPG",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Texas Holdem Poker_1654236863839.3083_1657699484747.9644.png",
+      "sport_id": "-104",
+      "sport_name": "Xprogramming"
+    },
+    "58": {
+      "name": "Teen Patti",
+      "code": "58",
+      "providerCode": "XPG",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Texas Holdem Poker_1654236846685.4353.png",
+      "sport_id": "-104",
+      "sport_name": "Xprogramming"
+    },
+    "59": {
+      "name": "Teen Patti 20/20",
+      "code": "59",
+      "providerCode": "XPG",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Texas Holdem Poker_1654236851857.26.png",
+      "sport_id": "-104",
+      "sport_name": "Xprogramming"
+    },
+    "64": {
+      "name": "32 Cards",
+      "code": "64",
+      "providerCode": "XPG",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Texas Holdem Poker_1654236863839.3083.png",
+      "sport_id": "-104",
+      "sport_name": "Xprogramming"
+    }
+  },
+  "BN": {
+    "B": {
+      "name": "Binary",
+      "code": "B",
+      "providerCode": "BN",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Binary_1654251772062.537.jpg",
+      "sport_id": "-109",
+      "sport_name": "Binary"
+    }
+  },
+  "AWC": {
+    "MX-LIVE-001": {
+      "name": "Baccarat",
+      "code": "MX-LIVE-001",
+      "providerCode": "AWC",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Baccarat_1654237084979.4932.jpg",
+      "sport_id": "-108",
+      "sport_name": "AE Sexy Casino"
+    },
+    "MX-LIVE-007": {
+      "name": "Sic Bo",
+      "code": "MX-LIVE-007",
+      "providerCode": "AWC",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Sic Bo_1654237090739.015.jpg",
+      "sport_id": "-108",
+      "sport_name": "AE Sexy Casino"
+    }
+  },
+  "FTZ": {
+    "FT": {
+      "name": "Fantasy Cricket",
+      "code": "FT",
+      "providerCode": "FTZ",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Fantasy Cricket_1654237395088.0337.jpg",
+      "sport_id": "-110",
+      "sport_name": "Fulltoz"
+    }
+  },
+  "OT": {
+    "3": {
+      "name": "Baccarat",
+      "code": "3",
+      "providerCode": "OT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Baccarat_1654245450739.8364.png",
+      "sport_id": "-111",
+      "sport_name": "One Touch"
+    },
+    "50112": {
+      "name": "Andar Bahar",
+      "code": "50112",
+      "providerCode": "OT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/AB_1654245443654.4292.png",
+      "sport_id": "-111",
+      "sport_name": "One Touch"
+    },
+    "71001": {
+      "name": "Bubbles Bonanza",
+      "code": "71001",
+      "providerCode": "OT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Bubbles Bonanza_1654245398151.0881.png",
+      "sport_id": "-111",
+      "sport_name": "One Touch"
+    },
+    "285117": {
+      "name": "BlackJack",
+      "code": "285117",
+      "providerCode": "OT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/BJ_1654245054206.94.png",
+      "sport_id": "-111",
+      "sport_name": "One Touch"
+    },
+    "20210419": {
+      "name": "Snack Blast",
+      "code": "20210419",
+      "providerCode": "OT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/Snack Blast_1654245408710.854.png",
+      "sport_id": "-111",
+      "sport_name": "One Touch"
+    },
+    "31032022": {
+      "name": "Teen Patti",
+      "code": "31032022",
+      "providerCode": "OT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/TP_1654245419310.6619.png",
+      "sport_id": "-111",
+      "sport_name": "One Touch"
+    }
+  },
+  "GT": {
+    "goldenclover": {
+      "name": "Golden Clover",
+      "code": "goldenclover",
+      "providerCode": "GT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/goldenclover_1654239251267.3647.png",
+      "sport_id": "-112",
+      "sport_name": "Geritus"
+    },
+    "luckypunch": {
+      "name": "Lucky Punch",
+      "code": "luckypunch",
+      "providerCode": "GT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/luckypunch_thumb_1654239507942.442.png",
+      "sport_id": "-112",
+      "sport_name": "Geritus"
+    },
+    "headsortails": {
+      "name": "Lucky Coin",
+      "code": "headsortails",
+      "providerCode": "GT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/op-luckycoin 480x360_1654239265462.058.png",
+      "sport_id": "-112",
+      "sport_name": "Geritus"
+    },
+    "trolldice": {
+      "name": "Troll Dice",
+      "code": "trolldice",
+      "providerCode": "GT",
+      "thumb": "http://files.worldcasinoonline.com/Document/Game/op-trolldice 480x360_1654239281586.3486.png",
+      "sport_id": "-112",
+      "sport_name": "Geritus"
+    }
+  }
+}

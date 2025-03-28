@@ -1,0 +1,1 @@
+module.exports.UI_ROUTE_PATH = "/dashboard";

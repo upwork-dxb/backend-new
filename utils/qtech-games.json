@@ -1,0 +1,327 @@
+{
+  "1x2": {
+    "sport_id": "-201",
+    "sport_name": "1x2 Gaming",
+    "providerCode": "1x2"
+  },
+  "AUX": {
+    "sport_id": "-202",
+    "sport_name": "AvatarUX",
+    "providerCode": "AUX"
+  },
+  "BBG": {
+    "sport_id": "-203",
+    "sport_name": "BB Games",
+    "providerCode": "BBG"
+  },
+  "BTL": {
+    "sport_id": "-204",
+    "sport_name": "BETER Live",
+    "providerCode": "BTL"
+  },
+  "BTV": {
+    "sport_id": "-205",
+    "sport_name": "BetGames TV",
+    "providerCode": "BTV"
+  },
+  "BGM": {
+    "sport_id": "-206",
+    "sport_name": "BGaming",
+    "providerCode": "BGM"
+  },
+  "BTG": {
+    "sport_id": "-207",
+    "sport_name": "Big Time Gaming",
+    "providerCode": "BTG"
+  },
+  "BPG": {
+    "sport_id": "-208",
+    "sport_name": "Blueprint Gaming",
+    "providerCode": "BPG"
+  },
+  "BNG": {
+    "sport_id": "-209",
+    "sport_name": "Booongo",
+    "providerCode": "BNG"
+  },
+  "CQC": {
+    "sport_id": "-210",
+    "sport_name": "CQ9 Casino",
+    "providerCode": "CQC"
+  },
+  "DS": {
+    "sport_id": "-211",
+    "sport_name": "Dragoon Soft",
+    "providerCode": "DS"
+  },
+  "EBT": {
+    "sport_id": "-212",
+    "sport_name": "eBET",
+    "providerCode": "EBT"
+  },
+  "ELK": {
+    "sport_id": "-213",
+    "sport_name": "Elk",
+    "providerCode": "ELK"
+  },
+  "ELY": {
+    "sport_id": "-214",
+    "sport_name": "Elysium",
+    "providerCode": "ELY"
+  },
+  "EVO": {
+    "sport_id": "-215",
+    "sport_name": "Evolution Gaming",
+    "providerCode": "EVO"
+  },
+  "EVP": {
+    "sport_id": "-216",
+    "sport_name": "Evoplay",
+    "providerCode": "EVP"
+  },
+  "EZU": {
+    "sport_id": "-217",
+    "sport_name": "Ezugi",
+    "providerCode": "EZU"
+  },
+  "FNG": {
+    "sport_id": "-218",
+    "sport_name": "Fantasma Games",
+    "providerCode": "FNG"
+  },
+  "FUG": {
+    "sport_id": "-219",
+    "sport_name": "Fugaso",
+    "providerCode": "FUG"
+  },
+  "GA": {
+    "sport_id": "-220",
+    "sport_name": "GameArt",
+    "providerCode": "GA"
+  },
+  "GFG": {
+    "sport_id": "-221",
+    "sport_name": "Gamefish Global",
+    "providerCode": "GFG"
+  },
+  "GZX": {
+    "sport_id": "-222",
+    "sport_name": "Gamzix",
+    "providerCode": "GZX"
+  },
+  "HAB": {
+    "sport_id": "-223",
+    "sport_name": "Habanero",
+    "providerCode": "HAB"
+  },
+  "HAK": {
+    "sport_id": "-224",
+    "sport_name": "Hacksaw Gaming",
+    "providerCode": "HAK"
+  },
+  "ISC": {
+    "sport_id": "-225",
+    "sport_name": "International Slashers Club",
+    "providerCode": "ISC"
+  },
+  "IDS": {
+    "sport_id": "-226",
+    "sport_name": "Iron Dog Studio",
+    "providerCode": "IDS"
+  },
+  "KGL": {
+    "sport_id": "-227",
+    "sport_name": "Kalamba Games",
+    "providerCode": "KGL"
+  },
+  "KIR": {
+    "sport_id": "-228",
+    "sport_name": "Kiron Interactive",
+    "providerCode": "KIR"
+  },
+  "LL": {
+    "sport_id": "-229",
+    "sport_name": "Lady Luck",
+    "providerCode": "LL"
+  },
+  "MNP": {
+    "sport_id": "-230",
+    "sport_name": "Manna Play",
+    "providerCode": "MNP"
+  },
+  "MAV": {
+    "sport_id": "-231",
+    "sport_name": "Maverick",
+    "providerCode": "MAV"
+  },
+  "MOB": {
+    "sport_id": "-232",
+    "sport_name": "Mobilots",
+    "providerCode": "MOB"
+  },
+  "NE": {
+    "sport_id": "-233",
+    "sport_name": "NetEnt",
+    "providerCode": "NE"
+  },
+  "NGE": {
+    "sport_id": "-234",
+    "sport_name": "NetGame",
+    "providerCode": "NGE"
+  },
+  "NLC": {
+    "sport_id": "-235",
+    "sport_name": "Nolimit City",
+    "providerCode": "NLC"
+  },
+  "OMI": {
+    "sport_id": "-236",
+    "sport_name": "OMI Gaming",
+    "providerCode": "OMI"
+  },
+  "OT": {
+    "sport_id": "-237",
+    "sport_name": "OneTouch",
+    "providerCode": "OT"
+  },
+  "PNG": {
+    "sport_id": "-238",
+    "sport_name": "Play'n GO",
+    "providerCode": "PNG"
+  },
+  "PP": {
+    "sport_id": "-239",
+    "sport_name": "PlayPearls",
+    "providerCode": "PP"
+  },
+  "PPC": {
+    "sport_id": "-240",
+    "sport_name": "Pragmatic Play Casino",
+    "providerCode": "PPC"
+  },
+  "PPL": {
+    "sport_id": "-241",
+    "sport_name": "Pragmatic Play Live",
+    "providerCode": "PPL"
+  },
+  "PPV": {
+    "sport_id": "-242",
+    "sport_name": "Pragmatic Play Virtual",
+    "providerCode": "PPV"
+  },
+  "PRS": {
+    "sport_id": "-243",
+    "sport_name": "Print Studios",
+    "providerCode": "PRS"
+  },
+  "PUG": {
+    "sport_id": "-244",
+    "sport_name": "Push Gaming",
+    "providerCode": "PUG"
+  },
+  "QS": {
+    "sport_id": "-245",
+    "sport_name": "Quickspin",
+    "providerCode": "QS"
+  },
+  "RED": {
+    "sport_id": "-246",
+    "sport_name": "Red Tiger Gaming",
+    "providerCode": "RED"
+  },
+  "RLX": {
+    "sport_id": "-247",
+    "sport_name": "Relax Gaming",
+    "providerCode": "RLX"
+  },
+  "RLG": {
+    "sport_id": "-248",
+    "sport_name": "Reloaded Gaming",
+    "providerCode": "RLG"
+  },
+  "RG": {
+    "sport_id": "-249",
+    "sport_name": "Revolver Gaming",
+    "providerCode": "RG"
+  },
+  "RTG": {
+    "sport_id": "-250",
+    "sport_name": "RTG Slots",
+    "providerCode": "RTG"
+  },
+  "S4G": {
+    "sport_id": "-251",
+    "sport_name": "S4 Gaming",
+    "providerCode": "S4G"
+  },
+  "SAG": {
+    "sport_id": "-252",
+    "sport_name": "SA Gaming",
+    "providerCode": "SAG"
+  },
+  "SWC": {
+    "sport_id": "-253",
+    "sport_name": "Skywind Casino",
+    "providerCode": "SWC"
+  },
+  "SWL": {
+    "sport_id": "-254",
+    "sport_name": "Skywind Live",
+    "providerCode": "SWL"
+  },
+  "SM": {
+    "sport_id": "-255",
+    "sport_name": "Slotmill",
+    "providerCode": "SM"
+  },
+  "SHS": {
+    "sport_id": "-256",
+    "sport_name": "Spearhead Studios",
+    "providerCode": "SHS"
+  },
+  "SPR": {
+    "sport_id": "-257",
+    "sport_name": "Splitrock",
+    "providerCode": "SPR"
+  },
+  "SPB": {
+    "sport_id": "-258",
+    "sport_name": "Spribe",
+    "providerCode": "SPB"
+  },
+  "TK": {
+    "sport_id": "-259",
+    "sport_name": "Thunderkick",
+    "providerCode": "TK"
+  },
+  "TPG": {
+    "sport_id": "-260",
+    "sport_name": "Triple PG",
+    "providerCode": "TPG"
+  },
+  "TRB": {
+    "sport_id": "-261",
+    "sport_name": "Turbo Games",
+    "providerCode": "TRB"
+  },
+  "VGL": {
+    "sport_id": "-262",
+    "sport_name": "Vivo Gaming",
+    "providerCode": "VGL"
+  },
+  "WAZ": {
+    "sport_id": "-263",
+    "sport_name": "Wazdan",
+    "providerCode": "WAZ"
+  },
+  "WOO": {
+    "sport_id": "-264",
+    "sport_name": "Woohoo Games",
+    "providerCode": "WOO"
+  },
+  "YGG": {
+    "sport_id": "-265",
+    "sport_name": "Yggdrasil",
+    "providerCode": "YGG"
+  }
+}

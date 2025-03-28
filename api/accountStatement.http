@@ -1,0 +1,34 @@
+###
+@host = http://localhost:3002/api/v1
+@header = Content-type: application/json
+@token = Authorization: Bearer 
+
+
+###
+POST {{host}}/accountstatement/chipInOut
+{{header}}
+{{token}}
+
+{
+"user_id":"60f59e86058d400746003954",
+"parent_id":"60f59958058d400746003914",
+"crdr":1,
+"amount":1000,
+"logged_in_user_id": "60f59958058d400746003914",
+ "password": "12345",
+ "remark": "add 1000 "
+ }
+
+ 
+###
+POST {{host}}/accountstatement/accountSatement
+{{header}}
+{{token}}
+
+{
+ "user_id": "60f59e86058d400746003954",
+ "limit": 10,
+ "pageno" : 1,
+ "from_date" : "2021-07-20",
+ "to_date": "2021-07-20"
+}
