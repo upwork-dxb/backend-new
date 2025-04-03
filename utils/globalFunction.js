@@ -1,6 +1,5 @@
-exports.resultResponse = (statusCode, data = null) => {
-	return {
-		statusCode: statusCode,
-		data: data
-	};
-};
+exports.resultResponse = (statusCode, data = null, message = null) => ({
+  statusCode,
+  message,
+  data
+});
