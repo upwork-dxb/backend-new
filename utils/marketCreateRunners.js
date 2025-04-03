@@ -1,25 +1,21 @@
-exports.createMarketRunners = (market_id, runners) => {
-  let bk_ly = [];
-  for (let index = 1; index <= 3; index++) {
-    bk_ly.push({
-      "size": "--",
-      "price": "--"
-    });
-  }
-  return runners.map(data => {
-    return {
-      "market_id": market_id,
-      "selectionId": data.selectionId,
-      "selection_id": data.selectionId,
-      "name": data.runnerName,
-      "selection_name": data.runnerName,
-      "sort_priority": data.sortPriority,
-      "sort_name": data.sortName || null,
-      "metadata": data.metadata || null,
-      "ex": {
-        "availableToBack": bk_ly,
-        "availableToLay": bk_ly
-      }
+exports.createMarketRunners = (market_id, runners = []) => {
+  const defaultBkLy = Array.from({ length: 3 }, () => ({
+    size: "--",
+    price: "--"
+  }));
+
+  return runners.map(({ selectionId, runnerName, sortPriority, sortName = null, metadata = null }) => ({
+    market_id,
+    selectionId,
+    selection_id: selectionId,
+    name: runnerName,
+    selection_name: runnerName,
+    sort_priority: sortPriority,
+    sort_name: sortName,
+    metadata,
+    ex: {
+      availableToBack: defaultBkLy,
+      availableToLay: defaultBkLy
     }
-  });
-}
+  }));
+};
