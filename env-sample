@@ -1,12 +1,15 @@
+# ======================== APP CONFIG ========================
 SUPER_ADMIN=super
 DEBUG=true
+SHOW_DEV_LOGS=true
 ALLOW_ORIGINS=true
-REDIS_CONNECTION=ioredis
 START_SERVICE=true
-CONNECTION_TYPE=SRV
+NODE_ENV=development
 SUPERNOWA_ENV=development
 QTECH_ENV=development
-NODE_ENV=development
+CONNECTION_TYPE=SRV
+
+# ======================== DATABASE ========================
 MONGO_USER=
 MONGO_PASSWORD=
 MONGO_CLUSTURE=
@@ -16,41 +19,63 @@ REPLICA_NAME=
 SET_PRIMARY=
 SET_SECONDARY1=
 SET_SECONDARY2=
+ENABLE_MONGOOSE_LOGS=true
+
+# ======================== REDIS ========================
+REDIS_CONNECTION=ioredis
+
+# ======================== ENCRYPTION KEYS ========================
 SECRET_KEY=66q2d786-5a0f-0fa0-be00-000f0000
 SECRET_IV=0123456789xyzXYZ
+
+# ======================== TELEGRAM BOT ========================
+TELEGRAM_TOKEN=****
+TELEGRAM_WEBHOOK_URL=https://xyz.com/api/v1/telegram/getUpdateFromTelegram
+TELEGRAM_BOT_ID=@xyz
+TELEGRAM_OTP_EXPIRE_TIME_SECONDS=60  # fixed typo in variable name
+
+# ======================== OTPLESS AUTH ========================
+OTPLESS_CLIENT_ID=
+OTPLESS_CLIENT_SECRET=
+OTPLESS_KEY_API=https://otpless.com/.well-known/openid-configuration
+OTPLESS_USER_INFO_API=https://auth.otpless.app/auth/userInfo
+OTPLESS_MAGIC_LINK_API=https://auth.otpless.app/auth/v1/authorize
+OTPLESS_SEND_OTP_URL=https://auth.otpless.app/auth/otp/v1/send
+OTPLESS_RESEND_OTP_URL=https://auth.otpless.app/auth/otp/v1/resend
+OTPLESS_VERIFY_OTP_URL=https://auth.otpless.app/auth/otp/v1/verify
+OTPLESS_CHANNEL=WHATSAPP
+OTPLESS_EXPIRY=120
+OTPLESS_OTP_LENGTH=6
+
+# ======================== API CREDENTIALS ========================
+CLIENT_ID=*****
+CLIENT_SECRET=*******
+
+# ======================== TRANSACTION/ORDER APIS ========================
 AGENT_CODE=TESTAGENTCODE
 GENERATE_ORDER=https://xyz.io/v1/deposit
 CHECK_DEPOSIT_STATUS=https://xyz.io/v1/deposit/status
 WITHDRAWAL=https://xyz.io/v1/withdrawal/
 CHECK_WITHDRAWAL_STATUS=https://xyz.io/v1/withdrawal/status
-IS_VALIDOMAIN_LOGIN=true // If true, validate domain during login; if false, do not validate domain
-TELEGRAM_TOKEN=****
-TELEGRAM_WEBHOOK_URL=https://xyz.com/api/v1/telegram/getUpdateFromTelegram
-TELEGRAM_BOT_ID=@xyz
-TELEGRAM_OTP_EXPIRE_TIME_SECOENDS=60
-CLIENT_ID = *****
-CLIENT_SECRET = *******
-OTPLESS_CLIENT_ID=
-OTPLESS_CLIENT_SECRET=
-OTPLESS_KEY_API = https://otpless.com/.well-known/openid-configuration
-OTPLESS_USER_INFO_API = https://auth.otpless.app/auth/userInfo
-OTPLESS_MAGIC_LINK_API = https://auth.otpless.app/auth/v1/authorize
-OTPLESS_SEND_OTP_URL = https://auth.otpless.app/auth/otp/v1/send
-OTPLESS_RESEND_OTP_URL = https://auth.otpless.app/auth/otp/v1/resend
-OTPLESS_VERIFY_OTP_URL = https://auth.otpless.app/auth/otp/v1/verify
-OTPLESS_CHANNEL= WHATSAPP
-OTPLESS_EXPIRY= 120 #TIme in seconds.
-OTPLESS_OTP_LENGTH= 6
+
+# ======================== DOMAIN SETTINGS ========================
+IS_VALIDDOMAIN_LOGIN=true  # fixed typo: VALIDOMAIN → VALIDDOMAIN
+
+# ======================== BONUS SETTINGS ========================
 DEFAULT_DAILY_BONUS_AMOUNT=0.0
 MIN_DAILY_BONUS_AMOUNT=0.0
 MAX_DAILY_BONUS_AMOUNT=25
-GET_FANCY_ODDS_API_INPLAY_d247=http://111.111.111.111/getbm?eventId=
+
+# ======================== PROVIDERS CONFIG ========================
+GET_FANCY_ODDS_API_INPLAY_D247=http://111.111.111.111/getbm?eventId=
 GET_FANCY_ODDS_API_INPLAY_PARKER777=http://111.111.111.111:8880/api/active-fancy/
-PROVIDER_API_FANCY="D247" # "PARKER777"
-PROVIDER_API_BOOKMAKER="D247" # "PARKER777"
-# Aura(Lotus) Casino
+PROVIDER_API_FANCY=D247      # or "PARKER777"
+PROVIDER_API_BOOKMAKER=D247  # or "PARKER777"
+
+# ======================== LOTUS (AURA) CASINO ========================
 LOTUS_IPS=127.0.0.1,52.66.120.45,65.1.211.242,3.108.94.176,43.204.7.196
-# Universe Casino
+
+# ======================== UNIVERSE CASINO ========================
 UNIVERSAL_CASINO_ENV=development
 UNIVERSAL_CASINO_USERNAME=
 UNIVERSAL_CASINO_PASSWORD=
@@ -58,14 +83,14 @@ UNIVERSAL_CASINO_APPKEY=
 UNIVERSAL_CASINO_WHITELISTING_IP=127.0.0.1,13.200.27.53
 UNIVERSAL_CASINO_ROUTE_PATH=
 UNIVERSAL_CASINO_OPERATORID=
-# Winston logger
-# LOG_LEVEL=debug,verbose,info,warn,error
-LOG_LEVEL=info
-SHOW_DEV_LOGS=true
-ALERT_SERVICE_ENABLE=true
-ENABLE_MONGOOSE_LOGS=true
-#TTL
-EXPIRY_FOR_BANK_DETAILS=10; Prament delete from db collection after 10 days.
-EXPIRY_FOR_REDIS_MARKETS=6
-EXPIRY_FOR_REDIS_FANCIES=6
 
+# ======================== LOGGING ========================
+LOG_LEVEL=info
+
+# ======================== TTL / EXPIRY SETTINGS ========================
+EXPIRY_FOR_BANK_DETAILS=10              # Days before bank details expire from DB
+EXPIRY_FOR_REDIS_MARKETS=6             # Hours TTL in Redis
+EXPIRY_FOR_REDIS_FANCIES=6             # Hours TTL in Redis
+
+# ======================== ALERTS ========================
+ALERT_SERVICE_ENABLE=true
