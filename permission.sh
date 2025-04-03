@@ -1,23 +1,32 @@
 #!/bin/bash
 
 # List of files to apply chmod
-files=".env
-ecosystem.config.js
-nodemon.json
-connections/redisCronConfig.json
-admin-backend/service/betService.js
-admin-backend/controllers/userController.js
-utils/validationConstant.js
-admin-backend/service/betService.js
-utils/constants.js
-lib/admin-webSocket.js
-utils/lotusConfig.json
-utils/qTechConfig.js"
+files=(
+  ".env"
+  "ecosystem.config.js"
+  "nodemon.json"
+  "connections/redisCronConfig.json"
+  "admin-backend/service/betService.js"
+  "admin-backend/controllers/userController.js"
+  "utils/validationConstant.js"
+  "utils/constants.js"
+  "lib/admin-webSocket.js"
+  "utils/lotusConfig.json"
+  "utils/qTechConfig.js"
+)
 
-# Apply chmod 777 to each file
-for file in $files; do
-    sudo chmod 777 "$file"
+# Recommended permission (can be adjusted)
+PERMISSION=664
+
+echo "Updating file permissions..."
+
+for file in "${files[@]}"; do
+  if [[ -f "$file" ]]; then
+    sudo chmod $PERMISSION "$file"
+    echo "✅ $file - permissions set to $PERMISSION"
+  else
+    echo "⚠️  $file - file not found"
+  fi
 done
 
-echo "Permissions updated for the specified files."
-
+echo "✅ Permissions update complete."
