@@ -1,9 +1,8 @@
-nodemon utils/cron.js
-nodemon admin-server.js
-nodemon user-server.js
-pm2 start --env production
-pm2 start --env development
-pm2 start --env dev
-***************************DANGER*******************************
-nodemon defaultInstall/defaultInstal.js
-nodemon test/resetBalanc.js
+"scripts": {
+  "dev:admin": "nodemon admin-server.js",
+  "dev:user": "nodemon user-server.js",
+  "dev:cron": "nodemon utils/cron.js",
+  "start:dev": "pm2 start ecosystem.config.js --env development",
+  "start:prod": "pm2 start ecosystem.config.js --env production",
+  "danger:reset": "nodemon test/resetBalanc.js"
+}
