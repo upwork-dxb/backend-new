@@ -1,47 +1,44 @@
 module.exports = Object.freeze({
-    // Market settings for sports
-    market_min_stack: 1,
-    market_max_stack: 50000,
-    market_max_stack_min_limit: 0,
-    market_max_stack_max_limit: 1000000,
-    market_min_odds_rate: 0.49,
-    market_max_odds_rate: 100,
-    market_bookmaker_min_odds_rate: 0.49,
-    market_bookmaker_max_odds_rate: 100,
-    market_bet_delay: 3,
-    market_min_bet_delay: 0,
-    market_max_bet_delay: 15,
-    market_max_profit: 2000000,
-    market_max_profit_max_limit: 10000000,
-    market_profit_range: 5,
-    market_advance_bet_stake: 50000,
-    market_advance_bet_stake_min_limit: 0,
-    market_advance_bet_stake_max_limit: 500000,
-    min_volume_limit: 0,
-    // Session settings for sports
-    session_min_stack: 1,
-    session_max_stack: 10000,
-    session_max_stack_min_limit: 0,
-    session_max_stack_max_limit: 1000000,
-    session_bet_delay: 0,
-    session_min_bet_delay: 0,
-    session_max_bet_delay: 15,
-    session_max_profit: 1000000,
-    session_max_profit_max_limit: 2500000,
-    session_profit_range: 25,
-    session_advance_bet_stake: 10000,
-    // Users
-    rate_min: 0,
-    rate_max: 100,
-    rate_default: 0,
-    mobile_min: 0,
-    mobile_max: 15,
-    mobile_default: null,
-    // for aura 444 
-    credit_reference_min: 0,
-    credit_reference_max: 500000000,
-    credit_reference_default: 0,
-    // B2C Constants
-    min_utr_value: 12,
-    max_utr_value: 14,
+  market: {
+    min_stack: 1,
+    max_stack: 50000,
+    max_stack_limits: { min: 0, max: 1000000 },
+    min_odds_rate: 0.49,
+    max_odds_rate: 100,
+    bookmaker_min_odds_rate: 0.49,
+    bookmaker_max_odds_rate: 100,
+    bet_delay: 3,
+    bet_delay_limits: { min: 0, max: 15 },
+    max_profit: 2000000,
+    max_profit_limit: 10000000,
+    profit_range: 5,
+    advance_bet_stake: 50000,
+    advance_bet_stake_limits: { min: 0, max: 500000 },
+    min_volume_limit: 0
+  },
+
+  session: {
+    min_stack: 1,
+    max_stack: 10000,
+    max_stack_limits: { min: 0, max: 1000000 },
+    bet_delay: 0,
+    bet_delay_limits: { min: 0, max: 15 },
+    max_profit: 1000000,
+    max_profit_limit: 2500000,
+    profit_range: 25,
+    advance_bet_stake: 10000
+  },
+
+  user: {
+    rate: { min: 0, max: 100, default: 0 },
+    mobile: { min: 0, max: 15, default: null }
+  },
+
+  aura444: {
+    credit_reference: { min: 0, max: 500000000, default: 0 }
+  },
+
+  b2c: {
+    utr_value: { min: 12, max: 14 }
+  }
 });
