@@ -1,8 +1,22 @@
-FROM node:16 as runner
+# ---------- Base image ----------
+FROM node:16-alpine AS base
 
+# ---------- Create app directory ----------
+WORKDIR /app
+
+# ---------- Install dependencies ----------
+COPY package*.json ./
+RUN npm install --production
+
+# ---------- Copy source files ----------
 COPY . .
-RUN npm i
+
+# ---------- Expose port ----------
 EXPOSE 4000
+
+# ---------- Set environment variables (optional) ----------
+ENV NODE_ENV=production \
+    APP_TYPE=ADMIN
+
+# ---------- Start the admin server ----------
 CMD ["npm", "run", "admin"]
-# CMD exec /bin/bash -c "trap : TERM INT; sleep infinity & wait"
-# CMD exec /bin/sh -c "trap : TERM INT; sleep 9999999999d & wait"
