@@ -1,50 +1,56 @@
-const fs = require("fs")
-  , path = require("path")
-  , CONFIG_FILE = "../lotusConfig.json"
-  , CONFIG_FILE_PATH = path.normalize(path.resolve(__dirname, CONFIG_FILE))
-  , getDefaultOperator = { operatorId: '', operatorIdHKD: '', operatorIdDemo: '', enable: 'no' };
+const fs = require("fs");
+const path = require("path");
 
-module.exports = {
-  getLotusOperator: () => {
-    if (checkLotusFile) {
-      let operatorId, enable, operatorIdHKD, operatorIdDemo;
-      if (process.env.LOTUS_ENABLE) {
-        if (process.env.LOTUS_ENABLE == "yes") {
-          operatorId = parseInt(process.env.LOTUS_OPERATORID);
-          operatorIdHKD = parseInt(process.env.LOTUS_OPERATORID_HKD);
-          operatorIdDemo = parseInt(process.env.LOTUS_OPERATORID_DEMO);
-          enable = process.env.LOTUS_ENABLE;
-        }
-      } else {
-        let lotusConfig = require("./lotusConfig.json");
-        operatorId = lotusConfig.operatorId;
-        operatorIdHKD = lotusConfig.operatorIdHKD;
-        operatorIdDemo = lotusConfig.operatorIdDemo;
-        enable = lotusConfig.enable;
-      }
-      if (enable != undefined)
-        if (enable == "yes")
-          if (operatorId != undefined)
-            return { operatorId, enable, operatorIdHKD, operatorIdDemo };
-          else
-            return getDefaultOperator;
-        else
-          return getDefaultOperator;
-      return getDefaultOperator;
-    }
+const CONFIG_FILE = "../lotusConfig.json";
+const CONFIG_FILE_PATH = path.resolve(__dirname, CONFIG_FILE);
+
+const getDefaultOperator = {
+  operatorId: '',
+  operatorIdHKD: '',
+  operatorIdDemo: '',
+  enable: 'no'
+};
+
+function checkLotusFile() {
+  try {
+    return fs.existsSync(CONFIG_FILE_PATH) && require(CONFIG_FILE_PATH);
+  } catch (err) {
+    return false;
+  }
+}
+
+function loadConfigFromFile() {
+  try {
+    return require(CONFIG_FILE_PATH);
+  } catch (err) {
     return getDefaultOperator;
   }
 }
 
-function checkLotusFile() {
-  if (!fs.existsSync(CONFIG_FILE_PATH))
-    return false
-  else {
-    try {
-      JSON.parse(JSON.stringify(require(CONFIG_FILE_PATH)));
-      return true;
-    } catch (error) {
-      return false;
-    }
+function getLotusOperator() {
+  if (!checkLotusFile()) return getDefaultOperator;
+
+  let operatorId, operatorIdHKD, operatorIdDemo, enable;
+
+  if (process.env.LOTUS_ENABLE === "yes") {
+    operatorId = parseInt(process.env.LOTUS_OPERATORID);
+    operatorIdHKD = parseInt(process.env.LOTUS_OPERATORID_HKD);
+    operatorIdDemo = parseInt(process.env.LOTUS_OPERATORID_DEMO);
+    enable = "yes";
+  } else {
+    const lotusConfig = loadConfigFromFile();
+    operatorId = lotusConfig.operatorId;
+    operatorIdHKD = lotusConfig.operatorIdHKD;
+    operatorIdDemo = lotusConfig.operatorIdDemo;
+    enable = lotusConfig.enable;
   }
+
+  const isValid = enable === "yes" && operatorId !== undefined && operatorId !== null;
+  return isValid
+    ? { operatorId, operatorIdHKD, operatorIdDemo, enable }
+    : getDefaultOperator;
 }
+
+module.exports = {
+  getLotusOperator
+};
