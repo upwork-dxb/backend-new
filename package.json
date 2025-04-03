@@ -3,20 +3,21 @@
   "version": "1.1.0",
   "description": "Beatific Exchange",
   "main": "admin-server.js",
+  "author": "Upwork Infotech",
+  "license": "ISC",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node admin-server.js",
     "admin": "node --trace-warnings admin-server.js",
-    "admindev": "nodemon --trace-warnings admin-server.js",
+    "admin:dev": "nodemon --trace-warnings admin-server.js",
     "user": "node --trace-warnings user-server.js",
-    "userdev": "nodemon --trace-warnings user-server.js",
+    "user:dev": "nodemon --trace-warnings user-server.js",
     "service": "nodemon utils/supernowaResultCron.js",
-    "dev": "reset ; concurrently --kill-others \"npm run admindev\" \"npm run userdev\""
+    "dev": "reset; concurrently --kill-others \"npm run admin:dev\" \"npm run user:dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Upwork Infotech. (UpWork Infotech)",
-  "license": "ISC",
   "dependencies": {
     "@socket.io/redis-adapter": "^8.0.1",
     "async": "^3.2.4",
@@ -27,8 +28,8 @@
     "bullmq": "^5.29.1",
     "celebrate": "^15.0.1",
     "compression": "^1.7.4",
-    "concurrently": "^7.6.0",
     "config": "^3.3.9",
+    "concurrently": "^7.6.0",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
@@ -67,5 +68,8 @@
     "winston": "^3.8.2",
     "winston-daily-rotate-file": "^5.0.0",
     "xlsx": "^0.18.5"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
