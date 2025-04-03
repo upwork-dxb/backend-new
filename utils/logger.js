@@ -1,22 +1,25 @@
 const winston = require('winston');
 
-let alignColorsAndTime = winston.format.combine(
-  winston.format.colorize({
-    all: true
-  }),
-  winston.format.printf(
-    info => `${info.level} : ${info.message}`
-  )
+// 🎨 Custom log format with color, timestamp, and alignment
+const customFormat = winston.format.combine(
+  winston.format.colorize(),
+  winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
+  winston.format.printf(({ timestamp, level, message }) => {
+    return `[${timestamp}] ${level} : ${message}`;
+  })
 );
 
+// 📝 Logger instance
 const log = winston.createLogger({
-  level: "debug",
+  level: process.env.LOG_LEVEL || 'debug',
+  format: customFormat,
   transports: [
-    new (winston.transports.Console)({
-      format: winston.format.combine(winston.format.colorize(), alignColorsAndTime)
-    })
-  ], exitOnError: false
+    new winston.transports.Console()
+  ],
+  exitOnError: false
 });
 
+// 🌍 Global reference (optional, but convenient)
 global.log = log;
+
 module.exports = log;
