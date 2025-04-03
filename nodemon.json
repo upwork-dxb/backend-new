@@ -15,8 +15,8 @@
   ],
   "env": {
     "SUPER_ADMIN": "super",
-    "DEBUG": true,
-    "ALLOW_ORIGINS": true,
+    "DEBUG": "true",
+    "ALLOW_ORIGINS": "true",
     "REDIS_CONNECTION": "ioredis",
     "START_SERVICE": "false",
     "NODE_APP_INSTANCE": "0",
@@ -24,14 +24,20 @@
     "SUPERNOWA_ENV": "development",
     "QTECH_ENV": "development",
     "NODE_ENV": "development",
+    "TZ": "Asia/Kolkata",
+
     "MONGO_USER": "devcluster",
     "MONGO_PASSWORD": "ph32H2xS656lv486",
     "MONGO_CLUSTURE": "dev.mmikz.mongodb.net",
     "MONGO_DEFAULT_DATABASE": "placeprod_19022025",
     "MONGO_PORT": ":27017",
+
     "REPLICA_NAME": "atlas-o5dty7-shard-0",
     "SET_PRIMARY": "beatific-shard-00-00.s6ml7.mongodb.net",
     "SET_SECONDARY1": "beatific-shard-00-01.s6ml7.mongodb.net",
     "SET_SECONDARY2": "beatific-shard-00-02.s6ml7.mongodb.net"
-  }
+  },
+  "ext": "js,json",
+  "watch": ["admin-server.js", "user-server.js", "lib", "admin-backend", "utils"],
+  "delay": "1000"
 }
