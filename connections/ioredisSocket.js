@@ -1,54 +1,70 @@
 const Redis = require("ioredis");
 const config = require("./redisConfigFile").getConfig();
-const tls_enabled = config?.tls_enabled === "yes";
 
+const tlsEnabled = config?.tls_enabled === "yes";
+
+// Create Redis Client
 function createRedisClient() {
-  return new Redis({
+  const redisOptions = {
     host: config.host,
     port: config.port,
     password: config.redisSSL_TLS.auth_pass,
-    tls: tls_enabled ? {} : undefined,
-    maxRetriesPerRequest: 5, // Limit retries for a request
+    maxRetriesPerRequest: 5,
     retryStrategy: (times) => {
       if (times >= 5) {
-        console.error("Max retries reached. Not reconnecting.");
-        return null; // Stop retrying
+        console.error("Redis: Max retries reached. Not reconnecting.");
+        return null; // Stop trying
       }
-      const delay = Math.min(times * 100, 2000); // Exponential backoff
-      console.warn(`Retrying Redis connection in ${delay}ms...`);
+      const delay = Math.min(times * 100, 2000); // 100ms, 200ms, 400ms, 800ms, 1600ms
+      console.warn(`Redis: Retry attempt ${times}, next in ${delay}ms...`);
       return delay;
     },
-  });
+  };
+
+  if (tlsEnabled) {
+    redisOptions.tls = {}; // Empty object enables SSL/TLS
+  }
+
+  return new Redis(redisOptions);
 }
 
 const client = createRedisClient();
 
+// Redis Event Listeners
 client.on("connect", () => {
-  console.log("Connected to Redis successfully.");
+  console.log("✅ Redis connected successfully.");
+});
+
+client.on("ready", () => {
+  console.log("✅ Redis client is ready to use.");
 });
 
 client.on("error", (err) => {
-  console.error("Redis connection error:", err);
+  console.error("❌ Redis connection error:", err.message || err);
 });
 
 client.on("reconnecting", (delay) => {
-  console.warn(`Reconnecting to Redis in ${delay}ms...`);
+  console.warn(`⚠️  Redis reconnecting in ${delay}ms...`);
 });
 
 client.on("end", () => {
-  console.warn("Redis connection closed.");
+  console.warn("⚠️  Redis connection ended.");
 });
 
-process.on("SIGINT", async () => {
-  console.log("Shutting down application. Closing Redis connection...");
-  await client.quit();
-  process.exit(0);
-});
+// Graceful Shutdown Handling
+async function shutdownRedis() {
+  try {
+    console.log("🛑 Shutting down. Closing Redis connection...");
+    await client.quit();
+    console.log("✅ Redis connection closed gracefully.");
+  } catch (err) {
+    console.error("Error during Redis shutdown:", err.message || err);
+  } finally {
+    process.exit(0);
+  }
+}
 
-process.on("SIGTERM", async () => {
-  console.log("Received termination signal. Closing Redis connection...");
-  await client.quit();
-  process.exit(0);
-});
+process.on("SIGINT", shutdownRedis);  // Ctrl+C
+process.on("SIGTERM", shutdownRedis); // Kubernetes or PM2 shutdown
 
 module.exports = client;
